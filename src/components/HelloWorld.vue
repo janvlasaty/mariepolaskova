@@ -59,13 +59,13 @@
       <div class="row mt-4">
         <div class="col-md-6">
           <div class="project-media">
-            <img src="project1.jpg" alt="Projekt NÚDZ - Bez obav" />
+            <!-- <img src="project1.jpg" alt="Projekt NÚDZ - Bez obav" /> -->
             <h5 class="mt-2">Projekt NÚDZ - Bez obav</h5>
           </div>
         </div>
         <div class="col-md-6">
           <div class="project-media">
-            <img src="podcast.jpg" alt="Podcast Ve vztahu" />
+            <!-- <img src="podcast.jpg" alt="Podcast Ve vztahu" /> -->
             <h5 class="mt-2">Podcast Ve vztahu</h5>
           </div>
         </div>
