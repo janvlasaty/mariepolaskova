@@ -1,14 +1,32 @@
 {
   "name-with-title": "Marie Polášková MSc.",
   "job-description": "Vaše psychoterapeutická pomoc",
-  "menu": {
-    "about-me": "O mně",
-    "education": "Vzdělání",
-    "contact-me": "Kontaktujte mě",
-    "references": "Reference",
-    "media": "Média",
-    "faq": "FAQ"
-  },
+  "menu": [
+    {
+      "href": "about-me",
+      "text": "O mně"
+    },
+    {
+      "href": "curriculum-vitae",
+      "text": "Vzdělání"
+    },
+    {
+      "href": "contact-me",
+      "text": "Kontaktujte mě"
+    },
+    {
+      "href": "references",
+      "text": "Reference"
+    },
+    {
+      "href": "media",
+      "text": "Média"
+    },
+    {
+      "href": "faq",
+      "text": "FAQ"
+    }
+  ],
   "about-me": {
     "title": "Terapie s cílem",
     "paragraph": "<p>Zaměřuji se na poskytování odborné podpory těm, kteří se potýkají s různými psychickými obtížemi, ať už se jedná o <b>úzkosti, deprese, nadměrný stres, zahlcení, problémy se sebevědomím nebo obtíže ve vztazích.</b> Ve své práci kombinuji prvky z <b>kognitivně-behaviorální terapie, mindfulness a schematerapie.</b> <b>Pracuji pod pravidelnou supervizí.</b></p><p><b>Mým cílem</b> je vytvořit bezpečný prostor, kde se můžete cítit pochopeni, dát sebe na první místo a kde <b>společně najdeme způsoby, jak se co nejdříve začít cítit lépe</b>. Terapie je přizpůsobena Vašim <b>individuálním potřebám</b>, a společně budeme pracovat na tom, abyste dosáhli trvalých změn vedoucích ke spokojenějšímu a vyrovnanějšímu životu.",
@@ -91,5 +109,69 @@
       "message": "Vaše zpráva",
       "submit": "Odeslat zprávu"
     }
+  },
+  "references": {
+    "title": "Reference",
+    "list": [
+      {
+        "name": "Jessie",
+        "text": "Terapeutická sezení s Marií mi umožnila přemýšlet o různých změnách a výzvách, které se v mém životě odehrávají. Vytvořila klidnou a přátelskou atmosféru, ve které jsem mohla sdílet i zranitelné věci. Naše sezení mi přinesla pozitivní změny a růst v osobním životě."
+      },
+      {
+        "name": "L. X.",
+        "text": "Byla jsem ráda, že jsem našla terapeutku, jako je Marie, protože mi sezení s ní moc pomohla a dala mi různé nástroje, jak zvládat svoje problémy. Jedním z hlavních faktorů, které mi pomohly v procesu terapie, byla příjemná atmosféra a otevřená komunikace, kterou Marie dokázala vytvořit. Pomohlo mi to nejen být otevřená vůči terapeutce, ale i sama k sobě."
+      }
+    ]
+  },
+  "media": {
+    "title": "Média",
+    "content": [
+      {
+        "title": "Podcast",
+        "text": "Moderuji podcast o vztazích, který najdete na Spotify, Apple Podcasts a Google Podcasts."
+      },
+      {
+        "title": "Články",
+        "text": "Píšu články o psychologii a duševním zdraví pro různé magazíny a weby."
+      },
+      {
+        "title": "Workshopy",
+        "text": "Pravidelně pořádám workshopy a přednášky na různá témata spojená s psychologií a duševním zdravím."
+      }
+    ]
+  },
+  "calendar": {
+    "monthNames": [
+      "Leden",
+      "Únor",
+      "Březen",
+      "Duben",
+      "Květen",
+      "Červen",
+      "Červenec",
+      "Srpen",
+      "Září",
+      "Říjen",
+      "Listopad",
+      "Prosinec"
+    ],
+    "dayShortNames": [
+      "Po",
+      "Út",
+      "St",
+      "Čt",
+      "Pá",
+      "So",
+      "Ne"
+    ],
+    "daysNames": [
+      "Pondělí",
+      "Úterý",
+      "Středa",
+      "Čtvrtek",
+      "Pátek",
+      "Sobota",
+      "Neděle"
+    ]
   }
 }

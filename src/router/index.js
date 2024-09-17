@@ -1,7 +1,7 @@
 import Home from '../views/Home.vue'
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 
-const history = createWebHashHistory()
+const history = createWebHistory()
 const routes = [
   {
     path: '/',
@@ -11,20 +11,17 @@ const routes = [
       layout: 'default',
       title: 'Titulka'
     }
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
-    meta: {
-      layout: 'default'
-    }
   }
 ]
 const router = createRouter({
+  mode: 'history',
+  scrollBehavior: (to, from, savedPosition) => {
+    if (to.hash) {
+      return { el: to.hash, top: 75 }
+    } else {
+      return { left: 0, top: 0 }
+    }
+  },
   linkActiveClass: 'active',
   history,
   routes

@@ -16,28 +16,13 @@
       </button>
       <div id="navbarNav" :class="['collapse', 'navbar-collapse', { show: navbarExpanded }]">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about-me">{{ t(`menu.about-me`) }}</a>
+          <li v-for="(item, index) in tm(`menu`)" :key="index" class="nav-item">
+            <a class="nav-link" :href="'#' + item.href">{{ item.text }}</a>
           </li>
+          <!-- language switch -->
           <li class="nav-item">
-            <a class="nav-link" href="#education">{{ t(`menu.education`) }}</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact-me">{{ t(`menu.contact-me`) }}</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#references">{{ t(`menu.references`) }}</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#media">{{ t(`menu.media`) }}</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#faw">{{ t(`menu.faq`) }}</a>
-          </li>
-          <!-- dropdown -->
-          <li class="nav-item">
-            <a v-if="locale == 'cs'" class="nav-link" href="#" @click="changeLanguage('en')">English</a>
-            <a v-else class="nav-link" href="#" @click="changeLanguage('cs')">Česky</a>
+            <a v-if="locale == 'cs'" class="nav-link" @click="changeLanguage('en')">English</a>
+            <a v-else class="nav-link" @click="changeLanguage('cs')">Česky</a>
           </li>
         </ul>
       </div>
@@ -49,7 +34,7 @@
 import { onMounted, onUnmounted, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-const { locale, t } = useI18n()
+const { locale, t, tm } = useI18n()
 
 const navbarExpanded = ref(false)
 
@@ -94,5 +79,7 @@ const collapseNavbar = () => {
   /* uppercase  */
   text-transform: uppercase;
   color: $primary;
+  font-weight: 500;
+  margin-right: 0.3rem;
 }
 </style>

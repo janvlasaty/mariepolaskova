@@ -6,7 +6,7 @@
         <div class="col mb-5">
           <div>
             <h1>{{ t(`name-with-title`) }}</h1>
-            <p>{{ t(`job-description`) }}</p>
+            <p class="lead">{{ t(`job-description`) }}</p>
           </div>
         </div>
       </div>

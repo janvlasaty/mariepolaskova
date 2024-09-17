@@ -1,34 +1,177 @@
 {
   "name-with-title": "Marie Polášková MSc.",
-  "job-description": "Your psychotherapeutic help",
-  "menu": {
-    "about-me": "About me",
-    "education": "Education",
-    "contact-me": "Contact me",
-    "references": "References",
-    "media": "Media",
-    "faq": "FAQ"
-  },
+  "job-description": "Your Psychotherapeutic Help",
+  "menu": [
+    {
+      "href": "about-me",
+      "text": "About Me"
+    },
+    {
+      "href": "curriculum-vitae",
+      "text": "Education"
+    },
+    {
+      "href": "contact-me",
+      "text": "Contact Me"
+    },
+    {
+      "href": "references",
+      "text": "References"
+    },
+    {
+      "href": "media",
+      "text": "Media"
+    },
+    {
+      "href": "faq",
+      "text": "FAQ"
+    }
+  ],
   "about-me": {
-    "title": "Terapie s cílem",
-    "paragraph": "Zaměřuji se na poskytování odborné podpory těm, kteří se potýkají s různými psychickými obtížemi, ať už se jedná o úzkosti, deprese, nadměrný stres, zahlcení, problémy se sebevědomím nebo obtíže ve vztazích. Ve své práci kombinuji prvky z kognitivně-behaviorální terapie, mindfulness a schematerapie. Pracuji pod pravidelnou supervizí. Mým cílem je vytvořit bezpečný prostor, kde se můžete cítit pochopeni, dát sebe na první místo a kde společně najdeme způsoby, jak se co nejdříve začít cítit lépe. Terapie je přizpůsobena Vašim individuálním potřebám, a společně budeme pracovat na tom, abyste dosáhli trvalých změn vedoucích ke spokojenějšímu a vyrovnanějšímu životu.",
-    "subtitle": "O mně",
-    "subparagraph": "Jsem psycholožka, lektorka a terapeutka, pracuji v Národním ústavu duševního zdraví, moderuji podcast o vztazích a své vzdělání neustále rozšiřuji – jak skrze doktorandské studium klinické psychologie na Univerzitě Karlově, tak prostřednictvím kurzů a dalších aktivit v oblasti duševního zdraví."
+    "title": "Goal-Oriented Therapy",
+    "paragraph": "<p>I focus on providing professional support to those facing various mental challenges, whether it's <b>anxiety, depression, excessive stress, feeling overwhelmed, self-esteem issues, or relationship difficulties.</b> In my work, I combine elements of <b>cognitive-behavioral therapy, mindfulness, and schema therapy.</b> <b>I work under regular supervision.</b></p><p><b>My goal</b> is to create a safe space where you can feel understood, prioritize yourself, and <b>together we will find ways to help you start feeling better as soon as possible</b>. Therapy is tailored to your <b>individual needs</b>, and we will work together to achieve lasting changes that lead to a more fulfilling and balanced life.</p>",
+    "subtitle": "A Few Words About Me",
+    "subparagraph": "<p>I am a psychologist, lecturer, and therapist, working at the National Institute of Mental Health. I host a podcast on relationships and continually expand my education – both through my doctoral studies in clinical psychology at Charles University and through various courses and activities in the field of mental health.</p>"
   },
   "curriculum-vitae": {
-    "title": "Životopis",
+    "title": "Education and Qualifications",
     "list": [
-      "Držitelka magisterského titulu z Oxfordské univerzity v oboru Psychologie",
-      "Nyní probíhající PhD studium v oboru klinická psychologie a psychologie zdraví na Univerzitě Karlově",
-      "Frekventantka pětiletého terapeutického výcviku v Kognitivně behaviorální terapii v Institutu Odyssea",
+      "Holder of a Master's degree in Psychology from Oxford University",
+      "Currently pursuing a PhD in clinical psychology and health psychology at Charles University",
+      "Participant in a five-year training program in Cognitive Behavioral Therapy at the Odyssea Institute",
       "EmotionAid Training",
-      "Školení v programu STRONG (program podporující adaptaci dětí a adolescentů v novém prostředí)",
-      "Od roku 2022 se v Národním ústavu duševního zdraví věnuji duševnímu zdraví dětí a rodičů",
-      "Lektorka programu Všech pět pohromadě v rámci <a href=\"https://dzda.cz/vsech-pet-pohromade/\" class=\"link-external\">NÚDZ</a>",
-      "Výcvik v kognitivně-behaviorální terapii vedené týmem z Oxfordské univerzity na <a href=\"https://dzda.cz/rodice/\" class=\"link-external\">podporu rodičů úzkostných dětí</a>",
-      "<a href=\"https://dzda.cz/proskoly/\" class=\"link-external\">Školení na podporu duševního zdraví dětí</a>, rodičů a učitelů v ČR ovlivněných válkou na Ukrajině (Unicef)",
-      "Výcvikový kurz pro peer konzultanty na univerzitě v Durhamu",
-      "Mentoring dospívajících v rámci programu YODA mentorship"
+      "Training in the STRONG program (supporting the adaptation of children and adolescents in new environments)",
+      "Since 2022, focusing on the mental health of children and parents at the National Institute of Mental Health",
+      "Lecturer in the 'Všech pět pohromadě' program as part of <a href=\"https://dzda.cz/vsech-pet-pohromade/\" class=\"link-external\">NÚDZ</a>",
+      "Cognitive-behavioral therapy training led by a team from Oxford University for <a href=\"https://dzda.cz/rodice/\" class=\"link-external\">supporting parents of anxious children</a>",
+      "<a href=\"https://dzda.cz/proskoly/\" class=\"link-external\">Training on supporting the mental health of children</a>, parents, and teachers in the Czech Republic affected by the war in Ukraine (Unicef)",
+      "Peer consultant training course at Durham University",
+      "Mentoring adolescents in the YODA mentorship program"
+    ]
+  },
+  "contact-me": {
+    "title": "Contact Me",
+    "content": [
+      {
+        "title": "Mutual Trust",
+        "text": "At the first meeting, I will introduce you to the therapeutic approach I work with, and you will tell me what brings you here. Through a half-hour conversation, we will mutually decide whether and on what we will work during the individual sessions."
+      },
+      {
+        "title": "Safe Environment",
+        "text": "Available both online and in my office in Vinohrady, Prague. What does the space look like?"
+      },
+      {
+        "title": "Terms of Collaboration",
+        "text": "Payment possible by cash or card. Predefined cancellation policies. The price for the initial consultation is 200 CZK. Subsequent consultations are priced from 1200 CZK (50 minutes)."
+      }
+    ],
+    "form": {
+      "title": "Choose an Appointment",
+      "name": "First Name",
+      "surname": "Last Name",
+      "email": "Your Email",
+      "submit": "Book Appointment"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "What are the sessions like?",
+        "answer": "Each session lasts 50 minutes. During the first three meetings, you will describe your situation in more detail. I ask additional questions, and together we set the goals for our collaboration. Each session is based on open conversation, asking open-ended questions, psychoeducation on relevant topics, moments of reflection, and the use of specific methods. These elements help change the perspective on the situation and allow for a more flexible approach to the topic."
+      },
+      {
+        "question": "How often will we meet?",
+        "answer": "At the beginning, we will meet once a week. After the initial phase of therapy, we will meet 1-2 times a month. Maintenance sessions can then be 1x every 2-3 months. However, the frequency is always based on mutual agreement, and we can adjust it according to your preferences."
+      },
+      {
+        "question": "Do I need to bring anything?",
+        "answer": "Some clients like to take notes during therapy, so a notebook might come in handy. Otherwise, you don't need anything. I will offer you water or tea during the session."
+      },
+      {
+        "question": "When should I arrive?",
+        "answer": "Ideally, arrive right on time as there is no waiting room in my therapy office."
+      },
+      {
+        "question": "Can we meet online? And how does it work?",
+        "answer": "Online meetings are no problem, and some clients prefer this option due to time constraints. We meet on Zoom, and I will send you a link before the session."
+      },
+      {
+        "question": "How will I pay?",
+        "answer": "You can pay either in cash on the spot or via bank transfer (always within 24 hours after the session)."
+      }
+    ],
+    "form": {
+      "title": "Send Me a Message",
+      "name": "First Name",
+      "surname": "Last Name",
+      "email": "Email",
+      "message": "Your Message",
+      "submit": "Send Message"
+    }
+  },
+  "references": {
+    "title": "References",
+    "list": [
+      {
+        "name": "Jessie",
+        "text": "Therapeutic sessions with Marie allowed me to reflect on various changes and challenges happening in my life. She created a calm and friendly atmosphere where I could share even vulnerable things. Our sessions brought positive changes and growth in my personal life."
+      },
+      {
+        "name": "L. X.",
+        "text": "I was glad to have found a therapist like Marie, as the sessions with her helped me a lot and gave me different tools to manage my problems. One of the main factors that helped me in the therapy process was the pleasant atmosphere and open communication that Marie was able to create. It helped me be open not only with the therapist but also with myself."
+      }
+    ]
+  },
+  "media": {
+    "title": "Media",
+    "content": [
+      {
+        "title": "Podcast",
+        "text": "I host a podcast on relationships, available on Spotify, Apple Podcasts, and Google Podcasts."
+      },
+      {
+        "title": "Articles",
+        "text": "I write articles on psychology and mental health for various magazines and websites."
+      },
+      {
+        "title": "Workshops",
+        "text": "I regularly organize workshops and lectures on various topics related to psychology and mental health."
+      }
+    ]
+  },
+  "calendar": {
+    "monthNames": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "dayShortNames": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
+    "daysNames": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
     ]
   }
 }
