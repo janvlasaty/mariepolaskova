@@ -9,12 +9,11 @@ const routes = [
     component: Home,
     meta: {
       layout: 'default',
-      title: 'Titulka'
+      title: 'Marie Polášková - Vaše terapeutka'
     }
   }
 ]
 const router = createRouter({
-  mode: 'history',
   scrollBehavior: (to, from, savedPosition) => {
     if (to.hash) {
       return { el: to.hash, top: 75 }
@@ -28,7 +27,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title || to.name || 'ProjectName'
+  document.title = to.meta.title || to.name
   next()
 })
 
