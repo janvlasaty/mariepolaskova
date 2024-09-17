@@ -10,7 +10,7 @@ export default ({ mode }) => {
   console.log(`build mode: ${mode}`, env)
 
   return defineConfig({
-    base: '/<REPO>/',
+    // base: '/<REPO>/',
     plugins: [
       vue(),
       createHtmlPlugin({
