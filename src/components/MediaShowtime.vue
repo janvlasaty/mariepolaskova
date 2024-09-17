@@ -1,9 +1,9 @@
 <template>
-  <section id="#media-showtime">
-    <div class="container-lg">
+  <section id="#media">
+    <div class="container-lg py-5">
       <div class="row">
         <div class="col">
-          <p>MediaShowtime</p>
+          <h1 class="line-below">Média</h1>
         </div>
       </div>
     </div>

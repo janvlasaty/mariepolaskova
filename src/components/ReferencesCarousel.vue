@@ -1,9 +1,9 @@
 <template>
-  <section id="#references-carousel">
-    <div class="container-lg">
+  <section id="references">
+    <div class="container-lg py-5">
       <div class="row">
         <div class="col">
-          <p>ReferencesCarousel</p>
+          <h1 class="line-below">Reference</h1>
         </div>
       </div>
     </div>

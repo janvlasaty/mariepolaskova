@@ -2,7 +2,7 @@
   <section id="curriculum-vitae">
     <div class="container-lg py-5">
       <div class="row">
-        <div class="col-6 pe-5">
+        <div class="col-12 col-lg-6 pe-5">
           <div class="container-lg">
             <div class="row">
               <div class="col">
@@ -40,5 +40,10 @@ section::before {
   background-repeat: no-repeat;
   background-position: 40% 40%;
   background-size: cover;
+}
+@media (max-width: 992px) {
+  section::before {
+    background-image: none;
+  }
 }
 </style>
