@@ -1,17 +1,21 @@
 <template>
-  <div class="container-fluid">
-    <hello-world msg="Welcome to Vue.js 3 Vite starter template" />
+  <div class="container-fluid g-0">
+    <HeaderPhoto />
+    <AboutMe />
+    <CurriculumVitae />
+    <ContactMe />
+    <ReferencesCarousel />
+    <MediaShowtime />
+    <FAQ />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Home'
-}
-</script>
-
 <script setup>
-// https://github.com/vuejs/eslint-plugin-vue/issues/1577
-// eslint-disable-next-line import/first
-import HelloWorld from '@/components/HelloWorld.vue'
+import AboutMe from '@/components/AboutMe.vue'
+import ContactMe from '@/components/ContactMe.vue'
+import CurriculumVitae from '@/components/CurriculumVitae.vue'
+import FAQ from '@/components/FAQ.vue'
+import HeaderPhoto from '@/components/HeaderPhoto.vue'
+import MediaShowtime from '@/components/MediaShowtime.vue'
+import ReferencesCarousel from '@/components/ReferencesCarousel.vue'
 </script>

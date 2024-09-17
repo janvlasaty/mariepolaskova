@@ -1,0 +1,18 @@
+{
+  "name-with-title": "Marie Polášková MSc.",
+  "job-description": "Vaše psychoterapeutická pomoc",
+  "menu": {
+    "about-me": "O mně",
+    "education": "Vzdělání",
+    "contact-me": "Kontaktujte mě",
+    "references": "Reference",
+    "media": "Média",
+    "faq": "FAQ"
+  },
+  "about-me": {
+    "title": "Terapie s cílem",
+    "paragraph": "<p>Zaměřuji se na poskytování odborné podpory těm, kteří se potýkají s různými psychickými obtížemi, ať už se jedná o <b>úzkosti, deprese, nadměrný stres, zahlcení, problémy se sebevědomím nebo obtíže ve vztazích.</b> Ve své práci kombinuji prvky z <b>kognitivně-behaviorální terapie, mindfulness a schematerapie.</b> <b>Pracuji pod pravidelnou supervizí.</b></p><p><b>Mým cílem</b> je vytvořit bezpečný prostor, kde se můžete cítit pochopeni, dát sebe na první místo a kde <b>společně najdeme způsoby, jak se co nejdříve začít cítit lépe</b>. Terapie je přizpůsobena Vašim <b>individuálním potřebám</b>, a společně budeme pracovat na tom, abyste dosáhli trvalých změn vedoucích ke spokojenějšímu a vyrovnanějšímu životu.",
+    "subtitle": "Pár slov o mně",
+    "subparagraph": "<p>Jsem psycholožka, lektorka a terapeutka, pracuji v Národním ústavu duševního zdraví, moderuji podcast o vztazích a své vzdělání neustále rozšiřuji – jak skrze doktorandské studium klinické psychologie na Univerzitě Karlově, tak prostřednictvím kurzů a dalších aktivit v oblasti duševního zdraví.</p>"
+  }
+}

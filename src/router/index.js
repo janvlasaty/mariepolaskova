@@ -8,7 +8,8 @@ const routes = [
     name: 'Home',
     component: Home,
     meta: {
-      layout: 'default'
+      layout: 'default',
+      title: 'Titulka'
     }
   },
   {
@@ -27,6 +28,11 @@ const router = createRouter({
   linkActiveClass: 'active',
   history,
   routes
+})
+
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title || to.name || 'ProjectName'
+  next()
 })
 
 export { router }

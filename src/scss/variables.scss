@@ -1,4 +1,6 @@
-$primary: #42b983;
+$primary: #6FA840;
+$primary-light: #c3e388;
+$primary-bg-light: #f8feee;
 $body-color: #304455;
 $info: #73abfe;
 $gray-100: #f6f6f6;
@@ -14,3 +16,6 @@ $dark: #273849;
 @import "~bootstrap/scss/utilities";
 
 $navbar-dark-color: rgba($white, .7);
+
+$font-header: "Libre Baskerville", serif;
+$font-body: "DM Sans", sans-serif;

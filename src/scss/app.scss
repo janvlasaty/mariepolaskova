@@ -36,3 +36,55 @@
 
 // Utilities
 @import "~bootstrap/scss/utilities/api";
+
+// Fonts
+// Supports weights 100-900
+@import "@fontsource-variable/dm-sans";
+@import "@fontsource/libre-baskerville";
+
+// Custom styles
+body {
+  font-family: $font-body;
+}
+h1, h2 {
+  font-family: $font-header;
+  font-weight: bold;
+  margin-top: 1rem!important;
+}
+h1.line-below::after, h2.line-below::after {
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  margin: 10px 0 0;
+  border-bottom: 5px solid $primary; /* Thick line */
+  margin-top: 1rem!important;
+  margin-bottom: 2rem!important;
+}
+h3, h4, h5, h6 {
+  // font-family: $font-header;
+  margin-top: 1rem!important;
+  font-weight: bold;
+}
+h3.line-below::after, h4.line-below::after, h5.line-below::after, h6.line-below::after {
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 100px;
+  margin: 5px 0 0;
+  border-bottom: 3px solid $primary-light; /* Thick line */
+  margin-top: 1rem!important;
+  margin-bottom: 2rem!important;
+}
+
+
+.card {
+  border: 0;
+  border-radius: 0;
+  background-color: $white;
+  box-shadow: 0 0 20px rgba($dark, .1);
+}
+
+section.bg-shaded {
+  background-color: $primary-bg-light;
+}
