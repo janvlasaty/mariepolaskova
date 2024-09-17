@@ -10,7 +10,7 @@ export default ({ mode }) => {
   console.log(`build mode: ${mode}`, env)
 
   return defineConfig({
-    base: '/mariepolaskova/',
+    // base: '/mariepolaskova/',
     plugins: [
       vue(),
       createHtmlPlugin({
