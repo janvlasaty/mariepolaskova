@@ -1,39 +1,44 @@
 <template>
-  <section id="#curiculum-vitae">
-    <div class="container-lg">
+  <section id="curriculum-vitae">
+    <div class="container-lg py-5">
       <div class="row">
-        <div class="col">
-          <h1 class="line-below">Vzdělání a kvalifikace</h1>
-          <ul>
-            <li>Držitelka magisterského titulu z Oxfordské univerzity v&nbsp;oboru Psychologie</li>
-            <li>Nyní probíhající PhD studium v&nbsp;oboru klinická psychologie a psychologie zdraví na Univerzitě Karlově</li>
-            <li>
-              Frekventantka pětiletého terapeutického výcviku v&nbsp;Kognitivně behaviorální terapii v&nbsp;Institutu Odyssea
-            </li>
-            <li>EmotionAid Training</li>
-            <li>Školení v&nbsp;programu STRONG (program podporující adaptaci dětí a adolescentů v&nbsp;novém prostředí)</li>
-            <li>Od roku 2022 se v Národním ústavu duševního zdraví věnuji duševnímu zdraví dětí a rodičů</li>
-            <li>
-              Lektorka programu Všech pět pohromadě v&nbsp;rámci NÚDZ (vložit proklik s&nbsp;odkazem na:
-              https://dzda.cz/vsech-pet-pohromade/)
-            </li>
-            <li>
-              Výcvik v&nbsp;kognitivně-behaviorální terapii vedené týmem z&nbsp;Oxfordské univerzity na podporu rodičů
-              úzkostných dětí (proklik s odkazem na: https://dzda.cz/rodice/)
-            </li>
-            <li>
-              Školení na podporu duševního zdraví dětí, rodičů a učitelů v&nbsp;ČR ovlivněných válkou na Ukrajině (Unicef)
-              odkaz: https://dzda.cz/proskoly/)
-            </li>
-            <li>Výcvikový kurz pro peer konzultanty na univerzitě v&nbsp;Durhamu</li>
-            <li>Mentoring dospívajících v&nbsp;rámci programu YODA mentorship</li>
-          </ul>
+        <div class="col-6 pe-5">
+          <div class="container-lg">
+            <div class="row">
+              <div class="col">
+                <h1 class="line-below">{{ t(`curriculum-vitae.title`) }}</h1>
+                <ul>
+                  <li v-for="(item, index) in tm('curriculum-vitae.list')" :key="index" v-html="item"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script type="module" setup>
-//
+<script setup>
+import { useI18n } from 'vue-i18n'
+
+const { t, tm } = useI18n()
 </script>
+
+<style lang="scss" scoped>
+section {
+  position: relative;
+}
+section::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-image: url('@/assets/cover-photo-stand.jpeg');
+  background-repeat: no-repeat;
+  background-position: 40% 40%;
+  background-size: cover;
+}
+</style>

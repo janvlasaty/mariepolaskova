@@ -10,8 +10,8 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: 'MediaShowtime'
-}
+<script setup>
+// import { useI18n } from 'vue-i18n'
+
+// const { t, tm } = useI18n()
 </script>

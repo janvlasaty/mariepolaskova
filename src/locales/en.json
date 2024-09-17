@@ -14,5 +14,21 @@
     "paragraph": "Zaměřuji se na poskytování odborné podpory těm, kteří se potýkají s různými psychickými obtížemi, ať už se jedná o úzkosti, deprese, nadměrný stres, zahlcení, problémy se sebevědomím nebo obtíže ve vztazích. Ve své práci kombinuji prvky z kognitivně-behaviorální terapie, mindfulness a schematerapie. Pracuji pod pravidelnou supervizí. Mým cílem je vytvořit bezpečný prostor, kde se můžete cítit pochopeni, dát sebe na první místo a kde společně najdeme způsoby, jak se co nejdříve začít cítit lépe. Terapie je přizpůsobena Vašim individuálním potřebám, a společně budeme pracovat na tom, abyste dosáhli trvalých změn vedoucích ke spokojenějšímu a vyrovnanějšímu životu.",
     "subtitle": "O mně",
     "subparagraph": "Jsem psycholožka, lektorka a terapeutka, pracuji v Národním ústavu duševního zdraví, moderuji podcast o vztazích a své vzdělání neustále rozšiřuji – jak skrze doktorandské studium klinické psychologie na Univerzitě Karlově, tak prostřednictvím kurzů a dalších aktivit v oblasti duševního zdraví."
+  },
+  "curriculum-vitae": {
+    "title": "Životopis",
+    "list": [
+      "Držitelka magisterského titulu z Oxfordské univerzity v oboru Psychologie",
+      "Nyní probíhající PhD studium v oboru klinická psychologie a psychologie zdraví na Univerzitě Karlově",
+      "Frekventantka pětiletého terapeutického výcviku v Kognitivně behaviorální terapii v Institutu Odyssea",
+      "EmotionAid Training",
+      "Školení v programu STRONG (program podporující adaptaci dětí a adolescentů v novém prostředí)",
+      "Od roku 2022 se v Národním ústavu duševního zdraví věnuji duševnímu zdraví dětí a rodičů",
+      "Lektorka programu Všech pět pohromadě v rámci <a href=\"https://dzda.cz/vsech-pet-pohromade/\" class=\"link-external\">NÚDZ</a>",
+      "Výcvik v kognitivně-behaviorální terapii vedené týmem z Oxfordské univerzity na <a href=\"https://dzda.cz/rodice/\" class=\"link-external\">podporu rodičů úzkostných dětí</a>",
+      "<a href=\"https://dzda.cz/proskoly/\" class=\"link-external\">Školení na podporu duševního zdraví dětí</a>, rodičů a učitelů v ČR ovlivněných válkou na Ukrajině (Unicef)",
+      "Výcvikový kurz pro peer konzultanty na univerzitě v Durhamu",
+      "Mentoring dospívajících v rámci programu YODA mentorship"
+    ]
   }
 }

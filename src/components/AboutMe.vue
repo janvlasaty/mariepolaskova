@@ -1,6 +1,6 @@
 <!-- eslint-disable prettier/prettier -->
 <template>
-  <section id="#about-me" class="bg-shaded">
+  <section id="about-me" class="bg-shaded">
     <div class="container-lg py-2">
       <div class="row py-5 gx-5">
         <div class="col-12 col-lg-8">

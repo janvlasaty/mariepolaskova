@@ -14,5 +14,82 @@
     "paragraph": "<p>Zaměřuji se na poskytování odborné podpory těm, kteří se potýkají s různými psychickými obtížemi, ať už se jedná o <b>úzkosti, deprese, nadměrný stres, zahlcení, problémy se sebevědomím nebo obtíže ve vztazích.</b> Ve své práci kombinuji prvky z <b>kognitivně-behaviorální terapie, mindfulness a schematerapie.</b> <b>Pracuji pod pravidelnou supervizí.</b></p><p><b>Mým cílem</b> je vytvořit bezpečný prostor, kde se můžete cítit pochopeni, dát sebe na první místo a kde <b>společně najdeme způsoby, jak se co nejdříve začít cítit lépe</b>. Terapie je přizpůsobena Vašim <b>individuálním potřebám</b>, a společně budeme pracovat na tom, abyste dosáhli trvalých změn vedoucích ke spokojenějšímu a vyrovnanějšímu životu.",
     "subtitle": "Pár slov o mně",
     "subparagraph": "<p>Jsem psycholožka, lektorka a terapeutka, pracuji v Národním ústavu duševního zdraví, moderuji podcast o vztazích a své vzdělání neustále rozšiřuji – jak skrze doktorandské studium klinické psychologie na Univerzitě Karlově, tak prostřednictvím kurzů a dalších aktivit v oblasti duševního zdraví.</p>"
+  },
+  "curriculum-vitae": {
+    "title": "Vzdělání a kvalifikace",
+    "list": [
+      "Držitelka magisterského titulu z Oxfordské univerzity v oboru Psychologie",
+      "Nyní probíhající PhD studium v oboru klinická psychologie a psychologie zdraví na Univerzitě Karlově",
+      "Frekventantka pětiletého terapeutického výcviku v Kognitivně behaviorální terapii v Institutu Odyssea",
+      "EmotionAid Training",
+      "Školení v programu STRONG (program podporující adaptaci dětí a adolescentů v novém prostředí)",
+      "Od roku 2022 se v Národním ústavu duševního zdraví věnuji duševnímu zdraví dětí a rodičů",
+      "Lektorka programu Všech pět pohromadě v rámci <a href=\"https://dzda.cz/vsech-pet-pohromade/\" class=\"link-external\">NÚDZ</a>",
+      "Výcvik v kognitivně-behaviorální terapii vedené týmem z Oxfordské univerzity na <a href=\"https://dzda.cz/rodice/\" class=\"link-external\">podporu rodičů úzkostných dětí</a>",
+      "<a href=\"https://dzda.cz/proskoly/\" class=\"link-external\">Školení na podporu duševního zdraví dětí</a>, rodičů a učitelů v ČR ovlivněných válkou na Ukrajině (Unicef)",
+      "Výcvikový kurz pro peer konzultanty na univerzitě v Durhamu",
+      "Mentoring dospívajících v rámci programu YODA mentorship"
+    ]
+  },
+  "contact-me": {
+    "title": "Kontaktujte mě",
+    "content": [
+      {
+        "title": "Vzájemná důvěra",
+        "text": "Na prvním setkání vám představím terapeutický přístup, ve kterém pracuji, vy mi povíte, s čím přicházíte. Skrze půlhodinový rozhovor se společně rozhodneme, zda a na čem budeme během jednotlivých sezení pracovat. "
+      },
+      {
+        "title": "Bezpečné prostředí",
+        "text": "Je možné online i v mé kanceláři v Praze na Vinohradech, kde a jak vypadá?"
+      },
+      {
+        "title": "Podmínky spolupráce",
+        "text": "Platba možná hotově i kartou. Předem dané storno podmínky. Cena úvodní konzultace je 200Kč. Cena další konzultace je od 1200Kč (50 minut)"
+      }
+    ],
+    "form": {
+      "title": "Vyberte si termín",
+      "name": "Jméno",
+      "surname": "Příjmení",
+      "email": "Váš e-mail",
+      "submit": "Rezervovat termín"
+    }
+  },
+  "faq": {
+    "title": "Nejčastější dotazy",
+    "questions": [
+      {
+        "question": "Jak vypadají sezení?",
+        "answer": "Každé sezení trvá 50 minut. Během prvních tří setkání mi podrobněji popisujete svou situaci. Kladu doplňující otázky a společně si určujeme cíle naší spolupráce. Každé setkání je založeno na vzájemném rozhovoru, kladení otevřených otázek, psycho-edukaci k relevantním tématům, okamžicích pro zamyšlení a používání specifických metod. Tyto prvky přispívají ke změně pohledu na danou situaci a umožňují flexibilnější přístup k tématu."
+      },
+      {
+        "question": "Jak často se budeme scházet?",
+        "answer": "Ze začátku se budeme setkávat jednou týdně, po prvotní fázi terapie se budeme scházet 1-2x za měsíc. Možné udržovací sezení jsou pak 1x za 2-3 měsíce. Vždy jde však o vzájemnou dohodu s klientem a frekvenci setkávání můžeme upravit dle vašich preferencí."
+      },
+      {
+        "question": "Potřebuji s sebou něco?",
+        "answer": "Občas si klienti rádi některé poznatky z terapií zapisují, proto se může hodit sešit. Jinak ale nic nepotřebujete. V terapeutovně vám nabídnu vodu nebo čaj."
+      },
+      {
+        "question": "Kdy mám přijít?",
+        "answer": "Přijďte ideálně přesně na čas, v terapeutovně nemám čekárnu."
+      },
+      {
+        "question": "Lze se setkat i online? A jak to probíhá?",
+        "answer": "Setkání online je bez problému a někteří klienti z důvodu časových možností preferují právě tuto variantu. Setkáváme se na Zoomu, před sezením vám zašlu odkaz."
+      },
+      {
+        "question": "Jak budu platit?",
+        "answer": "Platit můžete buď v hotovosti na místě nebo bankovním převodem (vždy do 24 hodin po sezení)."
+      }
+    ],
+    "form": {
+      "title": "Napište mi zprávu",
+      "name": "Jméno",
+      "surname": "Příjmení",
+      "email": "Email",
+      "message": "Vaše zpráva",
+      "submit": "Odeslat zprávu"
+    }
   }
 }

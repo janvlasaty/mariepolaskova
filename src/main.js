@@ -8,6 +8,8 @@ import { router } from './router'
 import cs from '@/locales/cs.json'
 import en from '@/locales/en.json'
 
+import 'bootstrap-icons/font/bootstrap-icons.css'
+
 const locale = localStorage.getItem('locale') || 'cs'
 
 localStorage.setItem('locale', locale)

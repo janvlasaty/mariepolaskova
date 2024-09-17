@@ -88,3 +88,8 @@ h3.line-below::after, h4.line-below::after, h5.line-below::after, h6.line-below:
 section.bg-shaded {
   background-color: $primary-bg-light;
 }
+
+.card .form-control {
+  border: 0;
+  background-color: $gray-100;
+}
