@@ -1,7 +1,7 @@
 <template>
   <section id="faq">
     <div class="container-lg py-5">
-      <div class="row gx-5">
+      <div class="row">
         <div class="col-12">
           <h1 class="line-below">{{ t('faq.title') }}</h1>
         </div>

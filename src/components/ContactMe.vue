@@ -1,7 +1,7 @@
 <template>
   <section id="contact-me" class="bg-shaded">
     <div class="container-lg py-5">
-      <div class="row gx-5">
+      <div class="row">
         <div class="col-12 col-lg-6">
           <h1 class="line-below">{{ t(`contact-me.title`) }}</h1>
           <template v-for="(item, index) in tm('contact-me.content')" :key="index">
