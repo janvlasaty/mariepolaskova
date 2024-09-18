@@ -33,6 +33,8 @@
                   <div class="col-12">
                     <input
                       type="text"
+                      name="given-name"
+                      autocomplete="given-name"
                       class="form-control"
                       :placeholder="t(`faq.form.name`)"
                       :aria-label="t(`faq.form.name`)"
@@ -41,6 +43,8 @@
                   <div class="col-12">
                     <input
                       type="text"
+                      name="family-name"
+                      autocomplete="family-name"
                       class="form-control"
                       :placeholder="t(`faq.form.surname`)"
                       :aria-label="t(`faq.form.surname`)"
@@ -49,6 +53,8 @@
                   <div class="col-12">
                     <input
                       type="text"
+                      name="email"
+                      autocomplete="email"
                       class="form-control"
                       :placeholder="t(`faq.form.email`)"
                       :aria-label="t(`faq.form.email`)"
@@ -57,6 +63,7 @@
                   <div class="col-12">
                     <textarea
                       type="text"
+                      name="message"
                       class="form-control"
                       :placeholder="t(`faq.form.message`)"
                       :aria-label="t(`faq.form.message`)"

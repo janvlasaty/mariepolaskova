@@ -1,6 +1,6 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top py-3">
+    <div class="container-lg">
       <a class="navbar-brand" href="#">{{ t(`name-with-title`) }}</a>
       <button
         class="navbar-toggler"
@@ -12,7 +12,7 @@
         aria-label="Toggle navigation"
         @click="toggleNavbar()"
       >
-        <span class="navbar-toggler-icon"></span>
+        <i class="bi bi-list"></i>
       </button>
       <div id="navbarNav" :class="['collapse', 'navbar-collapse', { show: navbarExpanded }]">
         <ul class="navbar-nav ms-auto">
@@ -67,7 +67,6 @@ const collapseNavbar = () => {
 
 <style lang="scss" scoped>
 .bg-light {
-  height: 75px;
   background-color: $white !important;
 }
 .navbar-brand {
@@ -81,5 +80,16 @@ const collapseNavbar = () => {
   color: $primary;
   font-weight: 500;
   margin-right: 0.3rem;
+}
+.nav-item {
+  cursor: pointer;
+}
+.nav-item:hover {
+  background-color: $gray-100;
+}
+button.navbar-toggler {
+  border: 0;
+  color: $primary;
+  font-size: 2rem;
 }
 </style>

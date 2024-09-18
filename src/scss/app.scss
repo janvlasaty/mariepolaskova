@@ -93,3 +93,11 @@ h3.line-below::after, h4.line-below::after, h5.line-below::after, h6.line-below:
   border: 0;
   background-color: $gray-100;
 }
+
+a.link-external::after {
+  content: '\F1C5'; /* Unicode for bi-external link icon */
+  font-family: 'bootstrap-icons';
+  margin-left: 0.25rem; /* Add space between the link text and the icon */
+  font-size: 0.75rem; /* Adjust icon size if needed */
+  display: inline-block;
+}

@@ -31,6 +31,6 @@ section {
   background-image: url('@/assets/cover-photo.jpeg');
   background-size: cover;
   background-position: center 20%;
-  height: 75vh;
+  height: 66.7vh;
 }
 </style>
