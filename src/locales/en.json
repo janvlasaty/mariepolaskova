@@ -1,6 +1,11 @@
 {
   "name-with-title": "Marie Polášková MSc.",
   "job-description": "Your Psychotherapeutic Help",
+  "contact": {
+    "phone": "+420 777 777 777",
+    "email": "mariepolaskova@gmail.com",
+    "address": "Vinohradská 123, Praha 2"
+  },
   "menu": [
     {
       "href": "about-me",
@@ -127,16 +132,52 @@
     "title": "Media",
     "content": [
       {
-        "title": "Podcast",
-        "text": "I host a podcast on relationships, available on Spotify, Apple Podcasts, and Google Podcasts."
+        "medium": "DVTV",
+        "link": "https://www.dvtv.cz/dvtv/videos/rE1zUDYGevOPx9gLSznJ",
+        "title": "Duševní zdraví žáků",
+        "photo": ""
       },
       {
-        "title": "Articles",
-        "text": "I write articles on psychology and mental health for various magazines and websites."
+        "medium": "Česká televize",
+        "link": "https://www.ceskatelevize.cz/porady/10441287766-studio-6-vikend/224411010120210/cast/1026937/",
+        "title": "Projekt Bez obav pomáhá dětem překonat úzkost",
+        "photo": ""
       },
       {
-        "title": "Workshops",
-        "text": "I regularly organize workshops and lectures on various topics related to psychology and mental health."
+        "medium": "Podcast",
+        "link": "https://open.spotify.com/show/70aX6Ia3k2Ja8mcryWGm9j",
+        "title": "Ve vztahu",
+        "photo": ""
+      },
+      {
+        "medium": "Podcast",
+        "link": "https://www.idnes.cz/zpravy/domaci/projekt-bez-obav-uzkosti-a-strachy-deti-polaskova-fiserova-nudz.A240306_063934_domaci_pitt",
+        "title": "Ve vztahu",
+        "photo": ""
+      },
+      {
+        "medium": "Heroine",
+        "link": "https://www.heroine.cz/inspirace/kdyz-te-trapi-uzkost-odlozime-ji-do-krabicky-i-to-se-uci-rodice-v-novem-kurzu-vysvetluji-psycholozky",
+        "title": "Když tě trápí úzkost, odložíme ji do krabičky. I to se učí rodiče v novém kurzu, vysvětlují psycholožky",
+        "photo": ""
+      },
+      {
+        "medium": "Heroine",
+        "link": "https://www.heroine.cz/psychologie/neomezene-moznosti-a-tlak-na-neustale-rozhodovani-jak-pomoci-dospivajicim-zvladat-nejen-skolu",
+        "title": "Neomezené možnosti a tlak na neustálé rozhodování. Jak pomoci dospívajícím zvládat nejen školu",
+        "photo": ""
+      },
+      {
+        "medium": "Rozhlas Wave",
+        "link": "https://wave.rozhlas.cz/uzkosti-jsou-castecne-dedicne-rodice-ucime-aby-se-nebali-dat-strach-najevo-ale-9150769",
+        "title": "Úzkosti jsou částečně dědičné. Rodiče učí mezi jiným, aby se nebáli dát strach najevo",
+        "photo": ""
+      },
+      {
+        "medium": "Rozhlas Wave",
+        "link": "https://wave.rozhlas.cz/krabicove-dychani-metoda-5-4-3-2-1-jake-techniky-pomahaji-detem-zvladnout-strach-9169471",
+        "title": "Krabicové dýchání, metoda 5-4-3-2-1. Jaké techniky pomáhají dětem zvládnout strach",
+        "photo": ""
       }
     ]
   },

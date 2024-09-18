@@ -17,28 +17,66 @@
               <h5 class="line-below">{{ t(`contact-me.form.title`) }}</h5>
               <form>
                 <div class="row g-3">
-                  <div class="col-6 full-height">
+                  <div class="col-12 col-sm-6 full-height">
                     <div class="form-control">
-                      <h6 class="text-center mb-3">
-                        <i class="bi bi-arrow-left-short"></i> {{ calendarView.monthYear }}
-                        <i class="bi bi-arrow-right-short"></i>
-                      </h6>
+                      <div class="row">
+                        <div class="col-2">
+                          <h6>
+                            <i class="bi bi-arrow-left-circle-fill pointer-cursor" @click="previousMonth()"></i>
+                          </h6>
+                        </div>
+                        <div class="col-8">
+                          <h6 class="text-center">{{ calendarView.monthYear }}</h6>
+                        </div>
+                        <div class="col-2">
+                          <h6><i class="bi bi-arrow-right-circle-fill pointer-cursor" @click="nextMonth()"></i></h6>
+                        </div>
+                      </div>
                       <div class="row g-0">
                         <div v-for="(day, indexDay) in tm(`calendar.dayShortNames`)" :key="indexDay" class="col text-center">
                           <span class="text-muted small">{{ day }}</span>
                         </div>
                       </div>
                       <hr />
-                      <div v-for="(week, indexWeek) in daysInMonth" :key="indexWeek" class="row g-0 mb-2">
-                        <div v-for="(day, indexDay) in week" :key="indexDay" class="col text-center">
-                          <span :class="[{ 'text-muted': !day.isSelectedMonth }]">{{ day.dayOfMonth }}</span>
+                      <div v-for="(week, indexWeek) in daysInMonth" :key="indexWeek" class="row g-0 mb-0">
+                        <div
+                          v-for="(day, indexDay) in week"
+                          :key="indexDay"
+                          :class="[
+                            'col',
+                            'text-center',
+                            'py-1',
+                            { 'bg-white': day.isAvailable, 'pointer-cursor': day.isAvailable }
+                          ]"
+                          @click="day.isAvailable ? selectDate(day.date) : null"
+                        >
+                          <span
+                            :class="[
+                              {
+                                'text-muted': !day.isSelectedMonth,
+                                'fw-bold': day.isAvailable,
+                                'text-primary': day.isAvailable
+                              }
+                            ]"
+                            >{{ day.dayOfMonth }}</span
+                          >
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-6 full-height">
+                  <div class="col-12 col-sm-6 full-height">
                     <div class="form-control">
-                      <h6 class="text-center">24. 11. 2024</h6>
+                      <h6 class="text-center">Datum</h6>
+                      <h6 class="text-center">{{ calendarView.dateFormatted }}</h6>
+                      <hr />
+                      <ul class="list-unstyled text-center">
+                        <li v-for="(slot, indexSlot) in calendarView.availableSlots" :key="indexSlot">
+                          <span>{{ slot.hour }}:{{ slot.minute }} ({{ slot.duration + 'min' }})</span>
+                        </li>
+                      </ul>
+                      <p v-if="calendarView.availableSlots.length === 0" class="text-center">
+                        <i>Žádné volné termíny</i>
+                      </p>
                     </div>
                   </div>
                   <div class="col-6">
@@ -90,10 +128,50 @@ import { useI18n } from 'vue-i18n'
 
 const { t, tm } = useI18n()
 
-const selectedDate = ref(new Date())
+const todayDate = new Date()
+const selectedDate = ref(new Date(todayDate.getFullYear(), todayDate.getMonth(), todayDate.getDate(), 0, 0, 0, 0))
+
+const availableSlots = [
+  {
+    date: selectedDate.value,
+    slots: [
+      {
+        hour: '15',
+        minute: '00',
+        duration: '50'
+      },
+      {
+        hour: '16',
+        minute: '00',
+        duration: '50'
+      }
+    ]
+  },
+  {
+    date: new Date(todayDate.getFullYear(), todayDate.getMonth(), todayDate.getDate() + 7, 0, 0, 0, 0),
+    slots: [
+      {
+        hour: '13',
+        minute: '30',
+        duration: '50'
+      },
+      {
+        hour: '16',
+        minute: '00',
+        duration: '50'
+      }
+    ]
+  }
+]
+
 const calendarView = computed(() => {
+  const availableDaySlots = availableSlots.find((daySlots) => daySlots.date.valueOf() === selectedDate.value.valueOf())
+
   return {
-    monthYear: selectedDate.value.toLocaleDateString('cs-CZ', { month: 'long', year: 'numeric' })
+    dateFormatted: selectedDate.value.toLocaleDateString('cs-CZ'),
+    monthYear: selectedDate.value.toLocaleDateString('cs-CZ', { month: 'long', year: 'numeric' }),
+    availableSlots: availableDaySlots ? availableDaySlots.slots : [],
+    availableDates: availableSlots.map((daySlots) => daySlots.date)
   }
 })
 
@@ -106,7 +184,8 @@ const generateDayObject = (date = new Date()) => {
     isSelectedMonth: date.getMonth() === selectedDate.value.getMonth(),
     isNextMonth: date.getMonth() !== selectedDate.value.getMonth() && date.valueOf() > selectedDate.value.valueOf(),
     name: date.toLocaleDateString('cs-CZ', { weekday: 'long' }),
-    shortName: date.toLocaleDateString('cs-CZ', { weekday: 'short' })
+    shortName: date.toLocaleDateString('cs-CZ', { weekday: 'short' }),
+    isAvailable: calendarView.value.availableDates.some((_date) => _date.valueOf() === date.valueOf())
   }
 }
 
@@ -158,6 +237,19 @@ function getMonthWeeks(now = new Date()) {
 }
 
 const daysInMonth = ref(getMonthWeeks())
+
+const selectDate = (date) => {
+  selectedDate.value = date
+  daysInMonth.value = getMonthWeeks(date)
+}
+const previousMonth = () => {
+  selectedDate.value = new Date(selectedDate.value.getFullYear(), selectedDate.value.getMonth() - 1, 1)
+  daysInMonth.value = getMonthWeeks(selectedDate.value)
+}
+const nextMonth = () => {
+  selectedDate.value = new Date(selectedDate.value.getFullYear(), selectedDate.value.getMonth() + 1, 1)
+  daysInMonth.value = getMonthWeeks(selectedDate.value)
+}
 </script>
 
 <style lang="scss" scoped>

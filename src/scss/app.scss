@@ -88,6 +88,9 @@ h3.line-below::after, h4.line-below::after, h5.line-below::after, h6.line-below:
 .bg-shaded {
   background-color: $primary-bg-light;
 }
+.bg-white {
+  background-color: $white;
+}
 
 // card 
 .card .form-control {
@@ -101,4 +104,11 @@ a.link-external::after {
   margin-left: 0.25rem; /* Add space between the link text and the icon */
   font-size: 0.75rem; /* Adjust icon size if needed */
   display: inline-block;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+.text-primary {
+  color: $primary;
 }
