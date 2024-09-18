@@ -1,7 +1,7 @@
 import Home from '../views/Home.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
-const history = createWebHistory()
+const history = createWebHistory(import.meta.env.BASE_URL)
 const routes = [
   {
     path: '/',
