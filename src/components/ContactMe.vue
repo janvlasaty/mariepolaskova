@@ -21,7 +21,7 @@
                     <div class="form-control">
                       <div class="row">
                         <div class="col-2">
-                          <h6>
+                          <h6 v-if="calendarView.allowPreviousMonth">
                             <i class="bi bi-arrow-left-circle-fill pointer-cursor" @click="previousMonth()"></i>
                           </h6>
                         </div>
@@ -29,7 +29,9 @@
                           <h6 class="text-center">{{ calendarView.monthYear }}</h6>
                         </div>
                         <div class="col-2">
-                          <h6><i class="bi bi-arrow-right-circle-fill pointer-cursor" @click="nextMonth()"></i></h6>
+                          <h6 v-if="calendarView.allowNextMonth">
+                            <i class="bi bi-arrow-right-circle-fill pointer-cursor" @click="nextMonth()"></i>
+                          </h6>
                         </div>
                       </div>
                       <div class="row g-0">
@@ -46,16 +48,14 @@
                             'col',
                             'text-center',
                             'py-1',
-                            { 'bg-white': day.isAvailable, 'pointer-cursor': day.isAvailable }
+                            { 'day-available': day.isAvailable, 'day-selected': day.isSelected }
                           ]"
                           @click="day.isAvailable ? selectDate(day.date) : null"
                         >
                           <span
                             :class="[
                               {
-                                'text-muted': !day.isSelectedMonth,
-                                'fw-bold': day.isAvailable,
-                                'text-primary': day.isAvailable
+                                'text-muted': !day.isSelectedMonth
                               }
                             ]"
                             >{{ day.dayOfMonth }}</span
@@ -168,6 +168,9 @@ const calendarView = computed(() => {
   const availableDaySlots = availableSlots.find((daySlots) => daySlots.date.valueOf() === selectedDate.value.valueOf())
 
   return {
+    allowPreviousMonth:
+      selectedDate.value.getMonth() > todayDate.getMonth() || selectedDate.value.getFullYear() > todayDate.getFullYear(),
+    allowNextMonth: true,
     dateFormatted: selectedDate.value.toLocaleDateString('cs-CZ'),
     monthYear: selectedDate.value.toLocaleDateString('cs-CZ', { month: 'long', year: 'numeric' }),
     availableSlots: availableDaySlots ? availableDaySlots.slots : [],
@@ -185,7 +188,8 @@ const generateDayObject = (date = new Date()) => {
     isNextMonth: date.getMonth() !== selectedDate.value.getMonth() && date.valueOf() > selectedDate.value.valueOf(),
     name: date.toLocaleDateString('cs-CZ', { weekday: 'long' }),
     shortName: date.toLocaleDateString('cs-CZ', { weekday: 'short' }),
-    isAvailable: calendarView.value.availableDates.some((_date) => _date.valueOf() === date.valueOf())
+    isAvailable: calendarView.value.availableDates.some((_date) => _date.valueOf() === date.valueOf()),
+    isSelected: date.valueOf() === selectedDate.value.valueOf()
   }
 }
 
@@ -253,5 +257,14 @@ const nextMonth = () => {
 </script>
 
 <style lang="scss" scoped>
-//
+.day-available {
+  cursor: pointer;
+  background-color: $white;
+  color: $primary;
+  font-weight: bold;
+}
+.day-selected {
+  background-color: $primary;
+  color: $white;
+}
 </style>
