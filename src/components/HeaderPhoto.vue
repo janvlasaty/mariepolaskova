@@ -6,7 +6,7 @@
         <div class="col mb-5">
           <div>
             <h1>{{ t(`name-with-title`) }}</h1>
-            <p class="lead">{{ t(`job-description`) }}</p>
+            <p>{{ t(`job-description`) }}</p>
           </div>
         </div>
       </div>
@@ -23,9 +23,14 @@ const { t } = useI18n()
 <style lang="scss" scoped>
 h1 {
   color: $white;
+  text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.35);
 }
 p {
   color: $white;
+  text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.35);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  font-size: 1.5rem;
 }
 section {
   background-image: url('@/assets/cover-photo.jpeg');
