@@ -6,7 +6,7 @@
           <div class="container-lg">
             <div class="row">
               <div class="col">
-                <h1 class="line-below">{{ t(`curriculum-vitae.title`) }}</h1>
+                <h2 class="line-below">{{ t(`curriculum-vitae.title`) }}</h2>
                 <ul>
                   <li v-for="(item, index) in tm('curriculum-vitae.list')" :key="index" v-html="item"></li>
                 </ul>

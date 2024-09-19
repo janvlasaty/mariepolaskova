@@ -17,8 +17,8 @@ export default ({ mode }) => {
         minify: true,
         inject: {
           data: {
-            title: 'ProjectName',
-            description: 'A single page application created using Vue.js 3'
+            title: 'Marie Polášková MSc.',
+            description: 'The official website of Marie Polášková MSc.'
           }
         }
       })

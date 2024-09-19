@@ -3,19 +3,18 @@
     <div class="container-lg py-5">
       <div class="row">
         <div class="col-12">
-          <h1 class="line-below">{{ t('faq.title') }}</h1>
+          <h2 class="line-below">{{ t('faq.title') }}</h2>
         </div>
         <div class="col-12 col-lg-6 mb-5">
-          <div id="accordionExample" class="accordion">
+          <div id="accordionFAQ" class="accordion">
             <div v-for="(item, index) in tm('faq.questions')" :key="index" class="accordion-item">
-              <h5 class="accordion-header d-flex justify-content-between align-items-center" @click="toggleCollapse(index)">
+              <h3 class="accordion-header d-flex justify-content-between align-items-center" @click="toggleCollapse(index)">
                 {{ item.question }}
                 <i v-if="index !== showAnswerIndex" class="bi bi-plus-circle ms-auto"></i>
-              </h5>
+              </h3>
               <div
-                id="collapseOne"
                 :class="['accordion-collapse', 'collapse', { show: index === showAnswerIndex }]"
-                data-bs-parent="#accordionExample"
+                data-bs-parent="#accordionFAQ"
               >
                 <div class="accordion-body">
                   {{ item.answer }}
@@ -27,7 +26,7 @@
         <div class="col-12 col-lg-6">
           <div class="card p-3">
             <div class="card-body">
-              <h5 class="line-below">{{ t(`faq.form.title`) }}</h5>
+              <h4 class="line-below">{{ t(`faq.form.title`) }}</h4>
               <form>
                 <div class="row g-3">
                   <div class="col-12">

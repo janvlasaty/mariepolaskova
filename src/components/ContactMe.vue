@@ -3,10 +3,10 @@
     <div class="container-lg py-5">
       <div class="row">
         <div class="col-12 col-lg-6">
-          <h1 class="line-below">{{ t(`contact-me.title`) }}</h1>
+          <h2 class="line-below">{{ t(`contact-me.title`) }}</h2>
           <template v-for="(item, index) in tm('contact-me.content')" :key="index">
             <div>
-              <h5>{{ item.title }}</h5>
+              <h3>{{ item.title }}</h3>
               <p v-html="item.text"></p>
             </div>
           </template>
@@ -14,24 +14,24 @@
         <div class="col-12 col-lg-6">
           <div class="card">
             <div class="card-body p-4">
-              <h5 class="line-below">{{ t(`contact-me.form.title`) }}</h5>
+              <h3 class="line-below">{{ t(`contact-me.form.title`) }}</h3>
               <form>
                 <div class="row g-3">
                   <div class="col-12 col-sm-6 full-height">
                     <div class="form-control">
                       <div class="row">
                         <div class="col-2">
-                          <h6 v-if="calendarView.allowPreviousMonth">
+                          <p v-if="calendarView.allowPreviousMonth" class="lead fw-bold">
                             <i class="bi bi-arrow-left-circle-fill pointer-cursor" @click="previousMonth()"></i>
-                          </h6>
+                          </p>
                         </div>
                         <div class="col-8">
-                          <h6 class="text-center">{{ calendarView.monthYear }}</h6>
+                          <p class="lead fw-bold">{{ calendarView.monthYear }}</p>
                         </div>
                         <div class="col-2">
-                          <h6 v-if="calendarView.allowNextMonth">
+                          <p v-if="calendarView.allowNextMonth" class="lead fw-bold">
                             <i class="bi bi-arrow-right-circle-fill pointer-cursor" @click="nextMonth()"></i>
-                          </h6>
+                          </p>
                         </div>
                       </div>
                       <div class="row g-0">
@@ -66,8 +66,8 @@
                   </div>
                   <div class="col-12 col-sm-6 full-height">
                     <div class="form-control">
-                      <h6 class="text-center">Datum</h6>
-                      <h6 class="text-center">{{ calendarView.dateFormatted }}</h6>
+                      <p class="lead text-center">Datum</p>
+                      <p class="lead text-center">{{ calendarView.dateFormatted }}</p>
                       <hr />
                       <div class="row g-3 p-2">
                         <div

@@ -9,7 +9,8 @@ const routes = [
     component: Home,
     meta: {
       layout: 'default',
-      title: 'Marie Polášková - Vaše terapeutka'
+      title: 'Marie Polášková - Vaše terapeutka',
+      description: 'Marie Polášková - Vaše terapeutka'
     }
   }
 ]
