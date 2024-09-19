@@ -69,11 +69,15 @@
                       <h6 class="text-center">Datum</h6>
                       <h6 class="text-center">{{ calendarView.dateFormatted }}</h6>
                       <hr />
-                      <ul class="list-unstyled text-center">
-                        <li v-for="(slot, indexSlot) in calendarView.availableSlots" :key="indexSlot">
+                      <div class="row g-3 p-2">
+                        <div
+                          v-for="(slot, indexSlot) in calendarView.availableSlots"
+                          :key="indexSlot"
+                          class="col-12 bg-white text-center fw-bold"
+                        >
                           <span>{{ slot.hour }}:{{ slot.minute }} ({{ slot.duration + 'min' }})</span>
-                        </li>
-                      </ul>
+                        </div>
+                      </div>
                       <p v-if="calendarView.availableSlots.length === 0" class="text-center">
                         <i>Žádné volné termíny</i>
                       </p>
