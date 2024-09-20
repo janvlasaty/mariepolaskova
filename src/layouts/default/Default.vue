@@ -1,6 +1,8 @@
 <template>
   <default-nav />
-  <slot />
+  <article>
+    <slot />
+  </article>
   <default-footer />
 </template>
 

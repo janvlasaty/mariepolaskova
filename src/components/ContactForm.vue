@@ -1,13 +1,15 @@
 <template>
   <h4 class="line-below">{{ t(`contact-form.title`) }}</h4>
   <div v-if="showFormSentSuccess">
-    <div class="alert alert-success" role="alert">
-      {{ t(`contact-form.message-sent-success`) }}
+    <div class="text-center">
+      <p><i class="bi bi-check-circle-fill text-primary"></i></p>
+      <p class="" v-html="t(`contact-form.message-sent-success`)"></p>
     </div>
   </div>
   <div v-else-if="showFormSentError">
-    <div class="alert alert-danger" role="alert">
-      {{ t(`contact-form.message-sent-error`) }}
+    <div class="text-center">
+      <p><i class="bi bi-exclamation-circle-fill text-danger"></i></p>
+      <p class="" v-html="t(`contact-form.message-sent-error`)"></p>
     </div>
   </div>
   <form v-else @submit.prevent="submitForm">
@@ -121,5 +123,7 @@ const submitForm = async () => {
 </script>
 
 <style lang="scss" scoped>
-//
+i.bi {
+  font-size: 5rem;
+}
 </style>

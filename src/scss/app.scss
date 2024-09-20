@@ -81,7 +81,7 @@ h3.line-below::after, h4.line-below::after, h5.line-below::after {
   width: 100%;
   max-width: 100px;
   margin: 5px 0 0;
-  border-bottom: 3px solid $primary-light; /* Thick line */
+  border-bottom: 3px solid $primary; /* Thick line */
   margin-top: 1rem!important;
   margin-bottom: 2rem!important;
 }
@@ -120,4 +120,7 @@ a.link-external::after {
 }
 .text-primary {
   color: $primary;
+}
+.text-primary-light {
+  color: $primary-light;
 }

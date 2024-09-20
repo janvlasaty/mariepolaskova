@@ -6,9 +6,9 @@
           <h2 class="line-below">{{ t('faq.title') }}</h2>
         </div>
         <div class="col-12 col-lg-6 mb-5">
-          <div id="accordionFAQ" class="accordion">
+          <div id="accordionFAQ" class="">
             <div v-for="(item, index) in tm('faq.questions')" :key="index" class="accordion-item">
-              <h3 class="accordion-header d-flex justify-content-between align-items-center" @click="toggleCollapse(index)">
+              <h3 class="d-flex justify-content-between align-items-center pointer-cursor" @click="toggleCollapse(index)">
                 {{ item.question }}
                 <i v-if="index !== showAnswerIndex" class="bi bi-plus-circle ms-auto"></i>
               </h3>

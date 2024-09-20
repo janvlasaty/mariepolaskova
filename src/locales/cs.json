@@ -218,12 +218,13 @@
   },
   "contact-form": {
     "title": "Napište mi zprávu",
+    "captcha-error": "Prosím, potvrďte, že jste člověk, robotům nepomáhám:)",
     "name": "Jméno",
     "surname": "Příjmení",
     "email": "Email",
     "message": "Vaše zpráva",
     "submit": "Odeslat zprávu",
-    "message-sent-success": "Vaše zpráva byla úspěšně odeslána. Brzy se vám ozvu.",
-    "message-sent-error": "Při odesílání zprávy došlo k chybě. Zkuste to prosím znovu, nebo mě kontaktujte na emailu."
+    "message-sent-success": "Vaše zpráva byla úspěšně odeslána.<br />Brzy se vám ozvu.<br /><br /><b>Marie</b>",
+    "message-sent-error": "Při odesílání zprávy došlo k chybě.<br />Zkuste to prosím znovu přímo na email.<br /><br /><b>Marie</b><br /><a href=\"mailto:marupolaskova{'@'}gmail.com\">marupolaskova{'@'}gmail.com</a>"
   }
 }
