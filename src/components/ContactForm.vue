@@ -63,7 +63,7 @@
           data-theme="light"
           data-render="explicit"
           data-size="normal"
-          data-sitekey="255e412a-11e4-4dca-8986-a17027664d40"
+          data-sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
         ></div>
       </div>
       <div class="col-12">
