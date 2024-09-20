@@ -79,7 +79,8 @@
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-const WEB3FORMS_ACCESS_KEY = '01f6e143-2005-48fb-b8c7-ec87f380b1d8'
+// const WEB3FORMS_ACCESS_KEY = '01f6e143-2005-48fb-b8c7-ec87f380b1d8'
+const WEB3FORMS_ACCESS_KEY = 'cdb4edf0-dd51-4ea7-aa73-a0bfd9510fff'
 const givenName = ref('')
 const familyName = ref('')
 const email = ref('')

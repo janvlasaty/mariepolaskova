@@ -35,7 +35,7 @@ p {
 section {
   background-image: url('@/assets/cover-photo.jpeg');
   background-size: cover;
-  background-position: center 20%;
+  background-position: center 15%;
   height: 66.7vh;
 }
 </style>

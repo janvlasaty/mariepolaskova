@@ -3,9 +3,8 @@
   "job-description": "Vaše psychoterapeutická pomoc",
   "description": "Vaše psychoterapeutická pomoc",
   "contact": {
-    "phone": "+420 777777777",
-    "email": "mariepolaskova{'@'}gmail.com",
-    "address": "Vinohradská 123, Praha 2"
+    "email": "marupolaskova{'@'}gmail.com",
+    "address": "Moravská 52, Praha 2, Vinohrady"
   },
   "menu": [
     {
@@ -48,9 +47,9 @@
       "EmotionAid Training",
       "Školení v programu STRONG (program podporující adaptaci dětí a adolescentů v novém prostředí)",
       "Od roku 2022 se v Národním ústavu duševního zdraví věnuji duševnímu zdraví dětí a rodičů",
-      "Lektorka programu Všech pět pohromadě v rámci <a href=\"https://dzda.cz/vsech-pet-pohromade/\" class=\"link-external\" _target=\"_blank\">NÚDZ</a>",
+      "Lektorka programu <a href=\"https://dzda.cz/vsech-pet-pohromade/\" class=\"link-external\" _target=\"_blank\">Všech pět pohromadě</a> v rámci NÚDZ",
       "Výcvik v kognitivně-behaviorální terapii vedené týmem z Oxfordské univerzity na <a href=\"https://dzda.cz/rodice/\" class=\"link-external\" _target=\"_blank\">podporu rodičů úzkostných dětí</a>",
-      "<a href=\"https://dzda.cz/proskoly/\" class=\"link-external\" _target=\"_blank\">Školení na podporu duševního zdraví dětí</a>, rodičů a učitelů v ČR ovlivněných válkou na Ukrajině (Unicef)",
+      "Školení na <a href=\"https://dzda.cz/proskoly/\" class=\"link-external\" _target=\"_blank\">podporu duševního zdraví dětí</a>, rodičů a učitelů v ČR ovlivněných válkou na Ukrajině (Unicef)",
       "Výcvikový kurz pro peer konzultanty na univerzitě v Durhamu",
       "Mentoring dospívajících v rámci programu YODA mentorship"
     ]
@@ -60,15 +59,15 @@
     "content": [
       {
         "title": "Vzájemná důvěra",
-        "text": "Na prvním setkání vám představím terapeutický přístup, ve kterém pracuji, vy mi povíte, s čím přicházíte. Skrze půlhodinový rozhovor se společně rozhodneme, zda a na čem budeme během jednotlivých sezení pracovat. "
+        "text": "Na prvním setkání vám představím terapeutický přístup, ve kterém pracuji a vy mi povíte, s čím přicházíte. Skrze půlhodinový rozhovor se společně rozhodneme, zda a na čem budeme během jednotlivých sezení pracovat."
       },
       {
         "title": "Bezpečné prostředí",
-        "text": "Je možné online i v mé kanceláři v Praze na Vinohradech, kde a jak vypadá?"
+        "text": "Setkání je možné online nebo v mé terapeutovně v Praze na Vinohradech."
       },
       {
         "title": "Podmínky spolupráce",
-        "text": "Platba možná hotově i kartou. Předem dané storno podmínky. Cena úvodní konzultace je 200Kč. Cena další konzultace je od 1200Kč (50 minut)"
+        "text": "Platit lze v hotovosti nebo převodem. Cena za jedno setkání je 1200Kč (50 minut). Sezení je možné bezplatně zrušit do 48h před setkáním. Při zrušení méně jak 48h před setkáním je třeba zrušené setkání zaplatit v celé jeho výši."
       }
     ],
     "form": {
@@ -118,11 +117,15 @@
       {
         "name": "L. X.",
         "text": "Byla jsem ráda, že jsem našla terapeutku, jako je Marie, protože mi sezení s ní moc pomohla a dala mi různé nástroje, jak zvládat svoje problémy. Jedním z hlavních faktorů, které mi pomohly v procesu terapie, byla příjemná atmosféra a otevřená komunikace, kterou Marie dokázala vytvořit. Pomohlo mi to nejen být otevřená vůči terapeutce, ale i sama k sobě."
+      },
+      {
+        "name": "Caroline",
+        "text": "Jelikož mě dlouhodobě trápily úzkosti, cítila jsem se neustále ve stresu a cítila jsem, že potřebuji pomocnou ruku, zhruba před rokem jsem se spojila s paní psycholožkou Marií Poláškovou. Paní psycholožka mi hned od začátku nabídla intenzivní terapii, konkrétně KBT, což je pro mě nejlepší forma terapie. Prvních pár sezení jsem si nebyla terapií jistá, jelikož je pro mě velmi těžké se někomu svěřit, ale postupem času jsem si u paní psycholožky vybudovala důvěru a začaly jsme s terapií naplno! Postupně jsme společně začaly přicházet na možné příčiny stresu a úzkostí a začaly s nimi pracovat.  Paní Polášková je první člověk, díky kterému jsem začala pracovat se svými úzkostmi, jelikož mi vždy vše srozumitelně vysvětlí a z každého sezení odcházím s novým poznatkem a s další metodou či cvičením, jak své úzkosti a stres eliminovat, aby mě tolik neomezovaly v životě. Paní psycholožka si mě získala svým charakterem a klidnou duší, cítím z ní klid a pohodu, protože má stále úsměv na tváři a vždy mi poskytne pomocnou ruku. Také je velmi empatický člověk, který s vámi soucítí a vždy porozumí vašim problémům, se kterými přicházíte. Nemluvě o tom, že mi ukázala, že se není za co stydět, pokud na vás na terapii přijde pláč. V terapii mile ráda budu pokračovat, protože vnímám určitý pokrok u sebe a u zvládání svých emocí a také úzkostí, a za to jsem paní psycholožce moc vděčná a děkuji jí za to!"
       }
     ]
   },
   "media": {
-    "title": "Media",
+    "title": "Média",
     "content": [
       {
         "medium": "DVTV",
@@ -139,17 +142,17 @@
         "photo": ""
       },
       {
-        "medium": "Podcast",
+        "medium": "Podcast Ve vztahu",
         "link": "https://open.spotify.com/show/70aX6Ia3k2Ja8mcryWGm9j",
         "linkShort": "spotify.com",
-        "title": "Ve vztahu",
+        "title": "Podcast o vztazích, který se zaměřuje na příběhy reálných lidí. Dvě psycholožky mají za cíl normalizovat, že jsou v partnerských vztazích horší i lepší chvíle a je v pořádku, že někdy se nám je podaří překonat a někdy ne. ",
         "photo": ""
       },
       {
-        "medium": "Podcast",
+        "medium": "iDnes.cz",
         "link": "https://www.idnes.cz/zpravy/domaci/projekt-bez-obav-uzkosti-a-strachy-deti-polaskova-fiserova-nudz.A240306_063934_domaci_pitt",
         "linkShort": "idnes.cz",
-        "title": "Ve vztahu",
+        "title": "Projekt Bez obav pomáhá dětem překonat úzkost",
         "photo": ""
       },
       {

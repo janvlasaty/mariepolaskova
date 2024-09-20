@@ -38,7 +38,7 @@ section::before {
   height: 100%;
   background-image: url('@/assets/cover-photo-stand.jpeg');
   background-repeat: no-repeat;
-  background-position: 40% 40%;
+  background-position: 40% 35%;
   background-size: cover;
 }
 @media (max-width: 992px) {
