@@ -56,6 +56,17 @@
         ></textarea>
       </div>
       <div class="col-12">
+        <div
+          class="h-captcha"
+          data-captcha="true"
+          data-lang="cs"
+          data-theme="light"
+          data-render="explicit"
+          data-size="normal"
+          data-sitekey="255e412a-11e4-4dca-8986-a17027664d40"
+        ></div>
+      </div>
+      <div class="col-12">
         <button type="submit" class="btn btn-primary text-white w-100">{{ t(`contact-form.submit`) }}</button>
       </div>
     </div>
@@ -77,6 +88,14 @@ const showFormSentError = ref(false)
 const { t } = useI18n()
 
 const submitForm = async () => {
+  const hCaptchaResponse = document.querySelector('[name="h-captcha-response"]').value
+
+  if (!hCaptchaResponse) {
+    alert('Please complete the hCaptcha challenge')
+
+    return
+  }
+
   const response = await fetch('https://api.web3forms.com/submit', {
     method: 'POST',
     headers: {
@@ -87,7 +106,8 @@ const submitForm = async () => {
       access_key: WEB3FORMS_ACCESS_KEY,
       name: givenName.value + ' ' + familyName.value,
       email: email.value,
-      message: message.value
+      message: message.value,
+      'h-captcha-response': hCaptchaResponse
     })
   })
   const result = await response.json()
