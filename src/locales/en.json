@@ -106,15 +106,7 @@
         "question": "How will I pay?",
         "answer": "You can pay either in cash on the spot or via bank transfer (always within 24 hours after the session)."
       }
-    ],
-    "form": {
-      "title": "Send Me a Message",
-      "name": "First Name",
-      "surname": "Last Name",
-      "email": "Email",
-      "message": "Your Message",
-      "submit": "Send Message"
-    }
+    ]
   },
   "references": {
     "title": "References",
@@ -215,5 +207,15 @@
       "Saturday",
       "Sunday"
     ]
+  },
+  "contact-form": {
+    "title": "Send Me a Message",
+    "name": "First Name",
+    "surname": "Last Name",
+    "email": "Email",
+    "message": "Your Message",
+    "submit": "Send Message",
+    "message-sent-success": "Your message has been sent successfully.",
+    "message-sent-error": "An error occurred while sending your message. Please try again later, or contact me directly by email."
   }
 }
