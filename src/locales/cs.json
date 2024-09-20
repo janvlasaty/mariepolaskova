@@ -106,15 +106,7 @@
         "question": "Jak budu platit?",
         "answer": "Platit můžete buď v hotovosti na místě nebo bankovním převodem (vždy do 24 hodin po sezení)."
       }
-    ],
-    "form": {
-      "title": "Napište mi zprávu",
-      "name": "Jméno",
-      "surname": "Příjmení",
-      "email": "Email",
-      "message": "Vaše zpráva",
-      "submit": "Odeslat zprávu"
-    }
+    ]
   },
   "references": {
     "title": "Reference",
@@ -223,5 +215,15 @@
       "Sobota",
       "Neděle"
     ]
+  },
+  "contact-form": {
+    "title": "Napište mi zprávu",
+    "name": "Jméno",
+    "surname": "Příjmení",
+    "email": "Email",
+    "message": "Vaše zpráva",
+    "submit": "Odeslat zprávu",
+    "message-sent-success": "Vaše zpráva byla úspěšně odeslána. Brzy se vám ozvu.",
+    "message-sent-error": "Při odesílání zprávy došlo k chybě. Zkuste to prosím znovu, nebo mě kontaktujte na emailu."
   }
 }

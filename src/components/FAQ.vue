@@ -26,53 +26,7 @@
         <div class="col-12 col-lg-6">
           <div class="card p-3">
             <div class="card-body">
-              <h4 class="line-below">{{ t(`faq.form.title`) }}</h4>
-              <form>
-                <div class="row g-3">
-                  <div class="col-12">
-                    <input
-                      type="text"
-                      name="given-name"
-                      autocomplete="given-name"
-                      class="form-control"
-                      :placeholder="t(`faq.form.name`)"
-                      :aria-label="t(`faq.form.name`)"
-                    />
-                  </div>
-                  <div class="col-12">
-                    <input
-                      type="text"
-                      name="family-name"
-                      autocomplete="family-name"
-                      class="form-control"
-                      :placeholder="t(`faq.form.surname`)"
-                      :aria-label="t(`faq.form.surname`)"
-                    />
-                  </div>
-                  <div class="col-12">
-                    <input
-                      type="text"
-                      name="email"
-                      autocomplete="email"
-                      class="form-control"
-                      :placeholder="t(`faq.form.email`)"
-                      :aria-label="t(`faq.form.email`)"
-                    />
-                  </div>
-                  <div class="col-12">
-                    <textarea
-                      type="text"
-                      name="message"
-                      class="form-control"
-                      :placeholder="t(`faq.form.message`)"
-                      :aria-label="t(`faq.form.message`)"
-                    ></textarea>
-                  </div>
-                  <div class="col-12">
-                    <button type="submit" class="btn btn-primary text-white w-100">{{ t(`faq.form.submit`) }}</button>
-                  </div>
-                </div>
-              </form>
+              <ContactForm />
             </div>
           </div>
         </div>
@@ -82,10 +36,18 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { defineComponent, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
+import ContactForm from '@/components/ContactForm.vue'
+
 const { t, tm } = useI18n()
+
+defineComponent({
+  components: {
+    ContactForm
+  }
+})
 
 const showAnswerIndex = ref(0)
 
