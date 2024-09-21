@@ -69,7 +69,7 @@
         ></div>
       </div>
       <div class="col-12">
-        <button type="submit" class="btn btn-primary text-white w-100">{{ t(`contact-form.submit`) }}</button>
+        <button type="submit" class="btn btn-primary fw-bold text-white w-100">{{ t(`contact-form.submit`) }}</button>
       </div>
     </div>
   </form>

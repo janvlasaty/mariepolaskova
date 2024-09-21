@@ -7,12 +7,14 @@
 <script setup>
 import { computed, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useRoute } from 'vue-router'
 import '@/scss/app.scss'
 
 const { t } = useI18n()
+const route = useRoute()
 
 const layout = computed(() => {
-  return `layout-${import.meta.layout || 'default'}`
+  return `layout-${route.meta.layout || 'default'}`
 })
 
 onMounted(() => {

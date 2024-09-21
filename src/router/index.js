@@ -1,4 +1,5 @@
 import Home from '../views/Home.vue'
+import ReservationView from '@/components/ReservationView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const history = createWebHistory(import.meta.env.BASE_URL)
@@ -10,6 +11,16 @@ const routes = [
     meta: {
       layout: 'default',
       title: 'Marie Polášková - Vaše terapeutka',
+      description: 'Marie Polášková - Vaše terapeutka'
+    }
+  },
+  {
+    path: '/rezervace',
+    name: 'Reservation',
+    component: ReservationView,
+    meta: {
+      layout: 'empty',
+      title: 'Marie Polášková - Rezervace termínu',
       description: 'Marie Polášková - Vaše terapeutka'
     }
   }

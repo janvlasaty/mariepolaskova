@@ -67,15 +67,13 @@
       },
       {
         "title": "Podmínky spolupráce",
-        "text": "Platit lze v hotovosti nebo převodem. Cena za jedno setkání je 1200Kč (50 minut). Sezení je možné bezplatně zrušit do 48h před setkáním. Při zrušení méně jak 48h před setkáním je třeba zrušené setkání zaplatit v celé jeho výši."
+        "text": "Platit lze v hotovosti nebo převodem. Cena za jedno setkání je 1200Kč (50 minut). Nejdříve si s vámi domluvím půlhodinové bezplatné online setkání, na kterém se domluvíme, zda budeme spolupracovat. Sezení je možné bezplatně zrušit do 48h před setkáním. Při zrušení méně jak 48h před setkáním je třeba zrušené setkání zaplatit v celé jeho výši."
       }
     ],
-    "form": {
-      "title": "Vyberte si termín",
-      "name": "Jméno",
-      "surname": "Příjmení",
-      "email": "Váš e-mail",
-      "submit": "Rezervovat termín"
+    "card": {
+      "title": "Jak rezervovat úvodní konzultaci?",
+      "text": "<p>Máte pocit, že by vám terapie mohla pomoci?</p><p>Napište mi a ráda si s vámi domluvím online hovor, na kterém se domluvíme, zda a na čem budeme spolupracovat.</p>",
+      "button": "Přejít na kontaktní formulář"
     }
   },
   "faq": {
@@ -119,7 +117,7 @@
         "text": "Byla jsem ráda, že jsem našla terapeutku, jako je Marie, protože mi sezení s ní moc pomohla a dala mi různé nástroje, jak zvládat svoje problémy. Jedním z hlavních faktorů, které mi pomohly v procesu terapie, byla příjemná atmosféra a otevřená komunikace, kterou Marie dokázala vytvořit. Pomohlo mi to nejen být otevřená vůči terapeutce, ale i sama k sobě."
       },
       {
-        "name": "Caroline",
+        "name": "Karolína",
         "text": "Jelikož mě dlouhodobě trápily úzkosti, cítila jsem se neustále ve stresu a cítila jsem, že potřebuji pomocnou ruku, zhruba před rokem jsem se spojila s paní psycholožkou Marií Poláškovou. Paní psycholožka mi hned od začátku nabídla intenzivní terapii, konkrétně KBT, což je pro mě nejlepší forma terapie. Prvních pár sezení jsem si nebyla terapií jistá, jelikož je pro mě velmi těžké se někomu svěřit, ale postupem času jsem si u paní psycholožky vybudovala důvěru a začaly jsme s terapií naplno! Postupně jsme společně začaly přicházet na možné příčiny stresu a úzkostí a začaly s nimi pracovat.  Paní Polášková je první člověk, díky kterému jsem začala pracovat se svými úzkostmi, jelikož mi vždy vše srozumitelně vysvětlí a z každého sezení odcházím s novým poznatkem a s další metodou či cvičením, jak své úzkosti a stres eliminovat, aby mě tolik neomezovaly v životě. Paní psycholožka si mě získala svým charakterem a klidnou duší, cítím z ní klid a pohodu, protože má stále úsměv na tváři a vždy mi poskytne pomocnou ruku. Také je velmi empatický člověk, který s vámi soucítí a vždy porozumí vašim problémům, se kterými přicházíte. Nemluvě o tom, že mi ukázala, že se není za co stydět, pokud na vás na terapii přijde pláč. V terapii mile ráda budu pokračovat, protože vnímám určitý pokrok u sebe a u zvládání svých emocí a také úzkostí, a za to jsem paní psycholožce moc vděčná a děkuji jí za to!"
       }
     ]
@@ -229,5 +227,12 @@
     "submit": "Odeslat zprávu",
     "message-sent-success": "Vaše zpráva byla úspěšně odeslána.<br />Brzy se vám ozvu.<br /><br /><b>Marie</b>",
     "message-sent-error": "Při odesílání zprávy došlo k chybě.<br />Zkuste to prosím znovu přímo na email.<br /><br /><b>Marie</b><br /><a href=\"mailto:marupolaskova{'@'}gmail.com\">marupolaskova{'@'}gmail.com</a>"
+  },
+  "calendar-view": {
+    "title": "Vyberte si termín",
+    "name": "Jméno",
+    "surname": "Příjmení",
+    "email": "Váš e-mail",
+    "submit": "Rezervovat termín"
   }
 }

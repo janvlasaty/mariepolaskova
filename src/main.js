@@ -1,5 +1,6 @@
 import App from './App.vue'
 import Default from '@/layouts/default/Default.vue'
+import Empty from '@/layouts/empty/Empty.vue'
 import { createApp } from 'vue'
 import { createI18n } from 'vue-i18n'
 import { createPinia } from 'pinia'
@@ -27,6 +28,7 @@ async function init() {
   const app = createApp(App)
 
   app.component('LayoutDefault', Default)
+  app.component('LayoutEmpty', Empty)
   app.use(createPinia())
   app.use(i18n)
   app.use(router)
