@@ -8,7 +8,7 @@ import { onMounted } from 'vue'
 onMounted(() => {
   const script = document.createElement('script')
 
-  script.src = 'https://reenio.cz/cs/GE4DIOBY/widget-iframe.js'
+  script.src = 'https://reenio.cz/cs/GE4DIMRU/widget-iframe.js'
   script.async = true
   script.defer = true
 
