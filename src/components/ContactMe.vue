@@ -5,7 +5,7 @@
         <div class="col-12">
           <h2 class="line-below">{{ t(`contact-me.title`) }}</h2>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-8">
           <template v-for="(item, index) in tm('contact-me.content')" :key="index">
             <div>
               <h3>{{ item.title }}</h3>
@@ -13,7 +13,7 @@
             </div>
           </template>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-4">
           <div class="card">
             <div class="card-body p-4">
               <h4 class="line-below">{{ t(`contact-me.card.title`) }}</h4>

@@ -71,8 +71,8 @@
       }
     ],
     "card": {
-      "title": "Jak rezervovat úvodní konzultaci?",
-      "text": "<p>Máte pocit, že by vám terapie mohla pomoci?</p><p>Napište mi a ráda si s vámi domluvím online hovor, na kterém se domluvíme, zda a na čem budeme spolupracovat.</p>",
+      "title": "Máte pocit, že by vám terapie mohla pomoci?",
+      "text": "<p class=\"lead\">Napište mi a ráda si s vámi domluvím online hovor, na kterém se domluvíme, zda a na čem budeme spolupracovat.</p>",
       "button": "Přejít na kontaktní formulář"
     }
   },

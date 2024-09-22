@@ -71,8 +71,8 @@
       }
     ],
     "card": {
-      "title": "How to book an initial consultation?",
-      "text": "<p>Do you feel that therapy could help you?</p><p>Write to me, and I will be happy to arrange an online call to discuss whether and on what we will collaborate.</p>",
+      "title": "Do you feel that therapy could help you?",
+      "text": "<p class=\"lead\">Write to me, and I will be happy to arrange an online call to discuss whether and on what we will collaborate.</p>",
       "button": "Go to the contact form"
     }
   },
