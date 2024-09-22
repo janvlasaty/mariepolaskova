@@ -57,17 +57,6 @@
           :aria-label="t(`contact-form.message`)"
         ></textarea>
       </div>
-      <!-- <div class="col-12">
-        <div
-          class="h-captcha"
-          data-captcha="true"
-          data-lang="cs"
-          data-theme="light"
-          data-render="explicit"
-          data-size="normal"
-          data-sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
-        ></div>
-      </div> -->
       <div class="col-12">
         <input type="checkbox" name="botcheck" class="hidden" style="display: none" />
         <button type="submit" class="btn btn-primary fw-bold text-white w-100">{{ t(`contact-form.submit`) }}</button>
@@ -92,14 +81,6 @@ const showFormSentError = ref(false)
 const { t } = useI18n()
 
 const submitForm = async () => {
-  // const hCaptchaResponse = document.querySelector('[name="h-captcha-response"]').value
-
-  // if (!hCaptchaResponse) {
-  //   alert('Please complete the hCaptcha challenge')
-
-  //   return
-  // }
-
   const response = await fetch('https://api.web3forms.com/submit', {
     method: 'POST',
     headers: {
@@ -111,7 +92,6 @@ const submitForm = async () => {
       name: givenName.value + ' ' + familyName.value,
       email: email.value,
       message: message.value
-      // 'h-captcha-response': hCaptchaResponse
     })
   })
   const result = await response.json()
