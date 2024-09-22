@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col">
           <h2 class="line-below">{{ t(`references.title`) }}</h2>
-          <div class="row">
+          <div class="row flex-nowrap overflow-auto">
             <div v-for="(item, index) in tm('references.list')" :key="index" class="col-12 col-lg-5">
               <div class="card">
                 <div class="card-body">

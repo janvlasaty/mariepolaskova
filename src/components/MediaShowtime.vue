@@ -5,6 +5,8 @@
         <div class="col-12">
           <h2 class="line-below">{{ t(`media.title`) }}</h2>
         </div>
+      </div>
+      <div class="row flex-nowrap overflow-auto">
         <template v-for="(item, index) in tm('media.content')" :key="index">
           <div class="col-12 col-lg-4">
             <div class="card mb-3">
