@@ -224,10 +224,12 @@
     "captcha-error": "Please confirm that you are human. I don't want to talk to robots:)",
     "name": "First Name",
     "surname": "Last Name",
+    "fullname": "Name and surname",
     "email": "Email",
     "message": "Your Message",
     "submit": "Send Message",
-    "message-sent-success": "Your message has been sent successfully.",
-    "message-sent-error": "An error occurred while sending your message. Please try again later, or contact me directly by email."
+    "sending": "Sending...",
+    "message-sent-success": "Your message has been sent successfully.<br />I will get back to you as soon as possible.<br /><br /><b>Marie</b>",
+    "message-sent-error": "An error occurred while sending your message.<br />Please try again later, or contact me directly by email.<br /><br /><b>Marie</b><br /><a href=\"mailto:marupolaskova{'@'}gmail.com\">marupolaskova{'@'}gmail.com</a>"
   }
 }

@@ -224,9 +224,11 @@
     "captcha-error": "Prosím, potvrďte, že jste člověk, robotům nepomáhám:)",
     "name": "Jméno",
     "surname": "Příjmení",
+    "fullname": "Jméno a příjmení",
     "email": "Email",
     "message": "Vaše zpráva",
     "submit": "Odeslat zprávu",
+    "sending": "Odesílám zprávu...",
     "message-sent-success": "Vaše zpráva byla úspěšně odeslána.<br />Brzy se vám ozvu.<br /><br /><b>Marie</b>",
     "message-sent-error": "Při odesílání zprávy došlo k chybě.<br />Zkuste to prosím znovu přímo na email.<br /><br /><b>Marie</b><br /><a href=\"mailto:marupolaskova{'@'}gmail.com\">marupolaskova{'@'}gmail.com</a>"
   },
