@@ -58,6 +58,9 @@
         ></textarea>
       </div>
       <div class="col-12">
+        <div class="h-captcha" data-captcha="true" data-sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"></div>
+      </div>
+      <div class="col-12">
         <input type="checkbox" name="botcheck" class="hidden" style="display: none" />
         <button type="submit" class="btn btn-primary fw-bold text-white w-100">{{ t(`contact-form.submit`) }}</button>
       </div>
@@ -69,8 +72,8 @@
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-const WEB3FORMS_ACCESS_KEY = '01f6e143-2005-48fb-b8c7-ec87f380b1d8'
-// const WEB3FORMS_ACCESS_KEY = 'cdb4edf0-dd51-4ea7-aa73-a0bfd9510fff'
+// const WEB3FORMS_ACCESS_KEY = '01f6e143-2005-48fb-b8c7-ec87f380b1d8'
+const WEB3FORMS_ACCESS_KEY = 'cdb4edf0-dd51-4ea7-aa73-a0bfd9510fff'
 const givenName = ref('')
 const familyName = ref('')
 const email = ref('')
@@ -80,7 +83,16 @@ const showFormSentError = ref(false)
 
 const { t } = useI18n()
 
-const submitForm = async () => {
+const submitForm = async (e) => {
+  const hCaptcha = document.querySelector('textarea[name=h-captcha-response]').value
+
+  if (!hCaptcha) {
+    e.preventDefault()
+    alert('Please fill out captcha field')
+
+    return
+  }
+
   const response = await fetch('https://api.web3forms.com/submit', {
     method: 'POST',
     headers: {
@@ -91,7 +103,8 @@ const submitForm = async () => {
       access_key: WEB3FORMS_ACCESS_KEY,
       name: givenName.value + ' ' + familyName.value,
       email: email.value,
-      message: message.value
+      message: message.value,
+      'h-captcha-response': window.hcaptcha.getResponse()
     })
   })
   const result = await response.json()

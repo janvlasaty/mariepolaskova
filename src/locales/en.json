@@ -107,6 +107,8 @@
   },
   "references": {
     "title": "References",
+    "show": "Show more",
+    "hide": "Hide",
     "list": [
       {
         "name": "Caroline",
@@ -128,50 +130,58 @@
       {
         "medium": "DVTV",
         "link": "https://www.dvtv.cz/dvtv/videos/rE1zUDYGevOPx9gLSznJ",
-        "title": "Duševní zdraví žáků",
-        "photo": ""
+        "linkShort": "Zhlédnout",
+        "title": "Data ukazují, že se čeští žáci a studenti necítí dobře. Dnešní děti se rodí do velmi nejisté doby, díky internetu jsou neuvěřitelně informovaní, mají přístup ke zprávám z celého světa a bojí se věcí jako tornádo nebo válka, které nikdy nezažily. Psycholožka Marie Polášková v oboru získala magisterský titul na Oxfordu a své poznatky se teď snaží přenést do Česka. Například v rámci projektu Bez obav, který pomáhá rodičům s úzkostnými dětmi. „Žádný strach by neměli brát na lehkou váhu. Zároveň si dítě musí zažít, že má před sebou těžké věci, rodič by mu měl umožnit překážky překonat,“ dodává.",
+        "photo": "media_dvtv.jpg"
       },
       {
         "medium": "Česká televize",
         "link": "https://www.ceskatelevize.cz/porady/10441287766-studio-6-vikend/224411010120210/cast/1026937/",
-        "title": "Projekt Bez obav pomáhá dětem překonat úzkost",
-        "photo": ""
+        "linkShort": "Zhlédnout",
+        "title": "Víme, že polovina všech duševních obtíží se projevuje před 14. rokem života a že je nedostatek dětských psychologů a psychiatrů. Na to je třeba reagovat, proto jsme vytvořili tento intervenční program pro rodiče. Namísto toho, aby dítě chodilo k psychologovi, se rodič účastní s ostatními rodiči kurzu, kde se školí v tom, jak své dítě podpořit a získává nejrůznější techniky a nástroje, zkouší si tam rozhovor s ostatními rodiči, který pak může praktikovat doma a pak ty techniky s dítětem využívá a pomáhá mu.“ O tom, jakým způsobem může projekt Bez obav pomoci v obtížných situacích promluvila ve Studiu 6 na Česká televize výzkumnice Marie Polášková.",
+        "photo": "media_ct.jpg"
       },
       {
-        "medium": "Podcast",
+        "medium": "Podcast Ve vztahu",
         "link": "https://open.spotify.com/show/70aX6Ia3k2Ja8mcryWGm9j",
-        "title": "Ve vztahu",
-        "photo": ""
+        "linkShort": "Poslechnout",
+        "title": "Podcast o vztazích, který se zaměřuje na příběhy reálných lidí. Dvě psycholožky mají za cíl normalizovat, že jsou v partnerských vztazích horší i lepší chvíle a je v pořádku, že někdy se nám je podaří překonat a někdy ne.",
+        "photo": "media_vevztahu.jpg"
       },
       {
-        "medium": "Podcast",
+        "medium": "iDnes.cz",
         "link": "https://www.idnes.cz/zpravy/domaci/projekt-bez-obav-uzkosti-a-strachy-deti-polaskova-fiserova-nudz.A240306_063934_domaci_pitt",
-        "title": "Ve vztahu",
-        "photo": ""
+        "linkShort": "Přečíst",
+        "title": "Na nedostatek odborné péče v oblasti duševního zdraví dětí se psycholožky Marie Polášková a Marta Fišerová z Národního ústavu duševního zdraví (NUDZ) rozhodly zareagovat včasnou prevencí. Jejich vzdělávací program „Bez obav“ je určený pro rodiče, jejichž děti trpí úzkostmi. „Rodič se zapojí do skupiny a stává se průvodcem i pomocníkem dítěte na cestě při překonávání obav,“ popisují autorky projektu.",
+        "photo": "media_idnes.jpg"
       },
       {
         "medium": "Heroine",
         "link": "https://www.heroine.cz/inspirace/kdyz-te-trapi-uzkost-odlozime-ji-do-krabicky-i-to-se-uci-rodice-v-novem-kurzu-vysvetluji-psycholozky",
+        "linkShort": "Přečíst",
         "title": "Když tě trápí úzkost, odložíme ji do krabičky. I to se učí rodiče v novém kurzu, vysvětlují psycholožky",
-        "photo": ""
+        "photo": "media_heroine.jpg"
       },
       {
         "medium": "Heroine",
         "link": "https://www.heroine.cz/psychologie/neomezene-moznosti-a-tlak-na-neustale-rozhodovani-jak-pomoci-dospivajicim-zvladat-nejen-skolu",
-        "title": "Neomezené možnosti a tlak na neustálé rozhodování. Jak pomoci dospívajícím zvládat nejen školu",
-        "photo": ""
+        "linkShort": "Přečíst",
+        "title": "O duševní zdraví se učíme zodpovědně pečovat až v posledních letech, zvláště u dětí a dospívajících to donedávna nebylo „téma“. Dnešní mladá generace sice žije zdánlivě v komfortu, ale i ona se potýká s řadou problémů. Jedním z nich je prakticky neomezené spektrum možností a tlak na neustálé rozhodování. Třeba o tom, jaké školy studovat, a to nejen v Česku, ale i v zahraničí. S tím chce studentům pomoci EduFestival, kde vystoupí i Marie Polášková. Sama vystudovala univerzity v Anglii a duševnímu zdraví dospívajících se věnuje nyní i v Česku.",
+        "photo": "media_heroine.jpg"
       },
       {
         "medium": "Rozhlas Wave",
         "link": "https://wave.rozhlas.cz/uzkosti-jsou-castecne-dedicne-rodice-ucime-aby-se-nebali-dat-strach-najevo-ale-9150769",
-        "title": "Úzkosti jsou částečně dědičné. Rodiče učí mezi jiným, aby se nebáli dát strach najevo",
-        "photo": ""
+        "linkShort": "Poslechnout",
+        "title": "Úzkosti jsou částečně dědičné. Rodiče učíme, aby se nebáli dát strach najevo, ale nepřenášeli ho dál: „Na odbornou pomoc čekáme v Česku půl až třičtvrtě roku. Zaměřme se tedy na to, co můžou udělat rodiče,“ říkají Matěj Kučera a Marie Polášková z Národního ústavu duševního zdraví.",
+        "photo": "media_wave_matej.jpg"
       },
       {
         "medium": "Rozhlas Wave",
         "link": "https://wave.rozhlas.cz/krabicove-dychani-metoda-5-4-3-2-1-jake-techniky-pomahaji-detem-zvladnout-strach-9169471",
-        "title": "Krabicové dýchání, metoda 5-4-3-2-1. Jaké techniky pomáhají dětem zvládnout strach",
-        "photo": ""
+        "linkShort": "Poslechnout",
+        "title": "Krabicové dýchání, metoda 5-4-3-2-1. Jaké techniky pomáhají dětem zvládnout strach, úzkost a paniku? „Často je to škola, strach o rodiče, separační úzkost, strach ze tmy. Děti můžou silně plakat, mělce dýchají, buší jim srdce. Snažíme se jim zklidnit dech pomocí krabicového dýchání, dýchání do jedničky nebo jejich pozornost odvedeme jinam metodou 5-4-3-2-1,“ popisuje Marie Polášková, psycholožka z Národního ústavu duševního zdraví.",
+        "photo": "media_wave.jpg"
       }
     ]
   },
