@@ -1,19 +1,4 @@
-# vue3-vite-starter-template
-
-A single page app [Vite](https://vitejs.dev) starter template, created to easily bootstrap Vue.js 3 apps.
-
-**Features**
-
-- Jest for unit testing
-- Pinia for state management
-- Vue Router 4 for client-side routing
-- Bootstrap 5.2 for layout and styling
-- SCSS variables inside Vue components
-- Purgecss for eliminating unused CSS
-- Basic multiple layouts feature
-- ESLint config based on `eslint:recommended` with sensible defaults :relaxed:
-- [Prettier](https://prettier.io/) for code formatting
-- Automated release workflow with [semantic-release](https://github.com/semantic-release/semantic-release)
+# Marie Polášková - Portfolio
 
 ## Project setup
 
@@ -50,7 +35,3 @@ npm run lint
 ```
 npm run lint-fix
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/guide/).
