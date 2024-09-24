@@ -7,8 +7,8 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid py-5 overflow-visible">
-      <div class="row flex-nowrap overflow-scroll">
+    <div class="container-fluid overflow-visible pt-3">
+      <div class="row flex-nowrap overflow-x-scroll py-2 pb-5 ps-0 ps-lg-5">
         <template v-for="(item, index) in tm('media.content')" :key="index">
           <div :class="['col-10', 'col-lg-4', { 'offset-0': index === 0 }]">
             <div class="card mb-3">

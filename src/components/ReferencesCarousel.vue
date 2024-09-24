@@ -1,19 +1,15 @@
 <template>
-  <section id="references">
-    <div class="container-lg py-5">
+  <section id="references overflow-hidden">
+    <div class="container-lg pt-5">
       <div class="row">
         <div class="col">
           <h2 class="line-below">{{ t(`references.title`) }}</h2>
         </div>
       </div>
     </div>
-    <div class="container-fluid overflow-visible pb-5">
-      <div class="row flex-nowrap overflow-scroll py-2">
-        <div
-          v-for="(item, index) in tm('references.list')"
-          :key="index"
-          :class="['col-12', 'col-lg-5', { 'offset-1': index === 0 }]"
-        >
+    <div class="container-fluid overflow-visible pt-3 pb-5">
+      <div class="row flex-nowrap overflow-x-scroll py-2 ps-0 ps-lg-5">
+        <div v-for="(item, index) in tm('references.list')" :key="index" :class="['col-10', 'col-lg-5']">
           <div class="card">
             <div class="card-body">
               <h5>{{ item.name }}</h5>
