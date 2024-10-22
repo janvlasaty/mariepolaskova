@@ -93,7 +93,8 @@ import { useI18n } from 'vue-i18n'
 
 // const WEB3FORMS_ACCESS_KEY = '01f6e143-2005-48fb-b8c7-ec87f380b1d8'
 // const WEB3FORMS_ACCESS_KEY = '1c55125e-2b1b-42b0-9db8-49fc2052a0d1'
-const WEB3FORMS_ACCESS_KEY = 'cdb4edf0-dd51-4ea7-aa73-a0bfd9510fff'
+// const WEB3FORMS_ACCESS_KEY = 'cdb4edf0-dd51-4ea7-aa73-a0bfd9510fff'
+const WEB3FORMS_ACCESS_KEY = 'd87cd263-365a-4162-9d9d-28d00d6b40bd'
 
 const showFormSentSuccess = ref(false)
 const showFormSentError = ref(false)
