@@ -1,5 +1,5 @@
 <template>
-  <section id="references overflow-hidden">
+  <section id="references" class="overflow-hidden">
     <div class="container-lg pt-5">
       <div class="row">
         <div class="col">
